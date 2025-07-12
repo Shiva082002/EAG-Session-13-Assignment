@@ -1,0 +1,5 @@
+# config/mcp_server_config.yaml
+mcp_servers:
+  - id: "windows"
+    script: "windowcontrol/windowManager/mcp_server_mcp_control.py"
+    cwd: "."
