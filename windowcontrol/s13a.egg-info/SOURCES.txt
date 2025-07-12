@@ -1,0 +1,17 @@
+README.md
+pyproject.toml
+src/s13a.egg-info/PKG-INFO
+src/s13a.egg-info/SOURCES.txt
+src/s13a.egg-info/dependency_links.txt
+src/s13a.egg-info/requires.txt
+src/s13a.egg-info/top_level.txt
+src/windowManager/legend.txt
+src/windowManager/mcp_server_windows.py
+src/windowManager/mcp_server_windows_interactive_client.py
+src/windowManager/safe_applications.json
+src/windowManager/window_functions.py
+src/windowManager/window_manager.py
+src/windowManager/window_screengrab.py
+tests/test_ocr_performance.py
+tests/test_yolo_memory.py
+tests/test_yolo_performance.py
