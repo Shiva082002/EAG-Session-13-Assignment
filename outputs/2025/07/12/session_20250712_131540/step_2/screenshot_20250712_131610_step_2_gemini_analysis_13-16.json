@@ -1,0 +1,774 @@
+{
+  "filename_base": "screenshot_20250712_131610_step_2",
+  "analysis_timestamp": "2025-07-12T13:16:29.441410",
+  "analysis_duration_seconds": 13.416277,
+  "total_images_analyzed": 2,
+  "total_input_images": 2,
+  "analysis_mode": "direct",
+  "successful_analyses": 2,
+  "total_icons_found": 124,
+  "images": [
+    {
+      "image_path": "direct:combined_groups_0_104_bboxes.png",
+      "image_name": "combined_groups_0_104_bboxes.png",
+      "icons_found": 90,
+      "icons": [
+        {
+          "id": "H0_1",
+          "name": "W Icon",
+          "usage": "Opens or creates a new Word document",
+          "group_type": "H"
+        },
+        {
+          "id": "H0_2",
+          "name": "AutoSave",
+          "usage": "Toggles automatic saving of the document",
+          "group_type": "H"
+        },
+        {
+          "id": "H0_3",
+          "name": "Off",
+          "usage": "Turns off autosave feature",
+          "group_type": "H"
+        },
+        {
+          "id": "H0_4",
+          "name": "Disk Icon",
+          "usage": "Saves the current document",
+          "group_type": "H"
+        },
+        {
+          "id": "H0_5",
+          "name": "Curved Arrow Left",
+          "usage": "Undo the last action",
+          "group_type": "H"
+        },
+        {
+          "id": "H0_6",
+          "name": "Curved Arrow Right",
+          "usage": "Redo the last undone action",
+          "group_type": "H"
+        },
+        {
+          "id": "H0_7",
+          "name": "Down Arrow",
+          "usage": "Opens a dropdown menu for customization",
+          "group_type": "H"
+        },
+        {
+          "id": "H0_8",
+          "name": "Document1 - Word",
+          "usage": "Displays the name of the current document and application",
+          "group_type": "H"
+        },
+        {
+          "id": "H1_1",
+          "name": "Page 1 of 1",
+          "usage": "Shows the current page number and total pages",
+          "group_type": "H"
+        },
+        {
+          "id": "H1_2",
+          "name": "0 words",
+          "usage": "Displays the word count of the document",
+          "group_type": "H"
+        },
+        {
+          "id": "H1_3",
+          "name": "Book Icon",
+          "usage": "Opens the readability statistics",
+          "group_type": "H"
+        },
+        {
+          "id": "H1_4",
+          "name": "English (India)",
+          "usage": "Specifies the document's language",
+          "group_type": "H"
+        },
+        {
+          "id": "H1_5",
+          "name": "Accessibility: Good to go",
+          "usage": "Indicates accessibility status of the document",
+          "group_type": "H"
+        },
+        {
+          "id": "H2_1",
+          "name": "Windows Icon",
+          "usage": "Opens the Start Menu",
+          "group_type": "H"
+        },
+        {
+          "id": "H2_2",
+          "name": "Magnifying Glass",
+          "usage": "Opens the search function",
+          "group_type": "H"
+        },
+        {
+          "id": "H2_3",
+          "name": "File Explorer Icon",
+          "usage": "Opens file explorer",
+          "group_type": "H"
+        },
+        {
+          "id": "H2_4",
+          "name": "App Icon",
+          "usage": "Opens the associated application",
+          "group_type": "H"
+        },
+        {
+          "id": "H2_5",
+          "name": "App Icon",
+          "usage": "Opens the associated application",
+          "group_type": "H"
+        },
+        {
+          "id": "H2_6",
+          "name": "App Icon",
+          "usage": "Opens the associated application",
+          "group_type": "H"
+        },
+        {
+          "id": "H2_7",
+          "name": "App Icon",
+          "usage": "Opens the associated application",
+          "group_type": "H"
+        },
+        {
+          "id": "H2_8",
+          "name": "App Icon",
+          "usage": "Opens the associated application",
+          "group_type": "H"
+        },
+        {
+          "id": "H2_9",
+          "name": "App Icon",
+          "usage": "Opens the associated application",
+          "group_type": "H"
+        },
+        {
+          "id": "H2_10",
+          "name": "App Icon",
+          "usage": "Opens the associated application",
+          "group_type": "H"
+        },
+        {
+          "id": "H2_11",
+          "name": "App Icon",
+          "usage": "Opens the associated application",
+          "group_type": "H"
+        },
+        {
+          "id": "H2_12",
+          "name": "App Icon",
+          "usage": "Opens the associated application",
+          "group_type": "H"
+        },
+        {
+          "id": "H2_13",
+          "name": "App Icon",
+          "usage": "Opens the associated application",
+          "group_type": "H"
+        },
+        {
+          "id": "H3_1",
+          "name": "File",
+          "usage": "Opens the file menu",
+          "group_type": "H"
+        },
+        {
+          "id": "H3_2",
+          "name": "Home",
+          "usage": "Navigates to the Home tab",
+          "group_type": "H"
+        },
+        {
+          "id": "H3_3",
+          "name": "Insert",
+          "usage": "Navigates to the Insert tab",
+          "group_type": "H"
+        },
+        {
+          "id": "H3_4",
+          "name": "Draw",
+          "usage": "Navigates to the Draw tab",
+          "group_type": "H"
+        },
+        {
+          "id": "H3_5",
+          "name": "Design",
+          "usage": "Navigates to the Design tab",
+          "group_type": "H"
+        },
+        {
+          "id": "H3_6",
+          "name": "Layout",
+          "usage": "Navigates to the Layout tab",
+          "group_type": "H"
+        },
+        {
+          "id": "H3_7",
+          "name": "References",
+          "usage": "Navigates to the References tab",
+          "group_type": "H"
+        },
+        {
+          "id": "H3_8",
+          "name": "Mailings",
+          "usage": "Navigates to the Mailings tab",
+          "group_type": "H"
+        },
+        {
+          "id": "H3_9",
+          "name": "Review",
+          "usage": "Navigates to the Review tab",
+          "group_type": "H"
+        },
+        {
+          "id": "H3_10",
+          "name": "View",
+          "usage": "Navigates to the View tab",
+          "group_type": "H"
+        },
+        {
+          "id": "H4_1",
+          "name": "Down Arrow",
+          "usage": "Opens a dropdown menu",
+          "group_type": "H"
+        },
+        {
+          "id": "H4_2",
+          "name": "Format Painter",
+          "usage": "Copies formatting from one area to another",
+          "group_type": "H"
+        },
+        {
+          "id": "H5_1",
+          "name": "Clipboard",
+          "usage": "Opens the clipboard pane",
+          "group_type": "H"
+        },
+        {
+          "id": "H6_1",
+          "name": "Dialog Box Launcher",
+          "usage": "Launches the font dialog box",
+          "group_type": "H"
+        },
+        {
+          "id": "H7_1",
+          "name": "Calibri (Body)",
+          "usage": "Sets the font type",
+          "group_type": "H"
+        },
+        {
+          "id": "H7_2",
+          "name": "12",
+          "usage": "Sets the font size",
+          "group_type": "H"
+        },
+        {
+          "id": "H8_1",
+          "name": "B",
+          "usage": "Toggles bold text formatting",
+          "group_type": "H"
+        },
+        {
+          "id": "H8_2",
+          "name": "I",
+          "usage": "Toggles italic text formatting",
+          "group_type": "H"
+        },
+        {
+          "id": "H8_3",
+          "name": "U",
+          "usage": "Toggles underline text formatting",
+          "group_type": "H"
+        },
+        {
+          "id": "H8_4",
+          "name": "ab",
+          "usage": "Strikethrough text",
+          "group_type": "H"
+        },
+        {
+          "id": "H8_5",
+          "name": "X2",
+          "usage": "Subscript text",
+          "group_type": "H"
+        },
+        {
+          "id": "H8_6",
+          "name": "X^2",
+          "usage": "Superscript text",
+          "group_type": "H"
+        },
+        {
+          "id": "H8_7",
+          "name": "A with dropdown",
+          "usage": "Changes text color",
+          "group_type": "H"
+        },
+        {
+          "id": "H8_8",
+          "name": "Pencil Icon",
+          "usage": "Highlights selected text",
+          "group_type": "H"
+        },
+        {
+          "id": "H8_9",
+          "name": "A with down arrow",
+          "usage": "Text Effects and Typography",
+          "group_type": "H"
+        },
+        {
+          "id": "H8_10",
+          "name": "Paragraph Icon",
+          "usage": "Align text left",
+          "group_type": "H"
+        },
+        {
+          "id": "H8_11",
+          "name": "Paragraph Icon",
+          "usage": "Align text center",
+          "group_type": "H"
+        },
+        {
+          "id": "H8_12",
+          "name": "Paragraph Icon",
+          "usage": "Align text right",
+          "group_type": "H"
+        },
+        {
+          "id": "H9_1",
+          "name": "12",
+          "usage": "Sets the font size",
+          "group_type": "H"
+        },
+        {
+          "id": "H9_2",
+          "name": "A with up arrow",
+          "usage": "Increase font size",
+          "group_type": "H"
+        },
+        {
+          "id": "H9_3",
+          "name": "A Aa with down arrow",
+          "usage": "Change Case",
+          "group_type": "H"
+        },
+        {
+          "id": "H9_4",
+          "name": "Paragraph Icon",
+          "usage": "Font color",
+          "group_type": "H"
+        },
+        {
+          "id": "H9_5",
+          "name": "Bullet Points",
+          "usage": "Add bullet points",
+          "group_type": "H"
+        },
+        {
+          "id": "H9_6",
+          "name": "Numbering",
+          "usage": "Add numbering",
+          "group_type": "H"
+        },
+        {
+          "id": "H10_1",
+          "name": "A with line",
+          "usage": "Increase indent",
+          "group_type": "H"
+        },
+        {
+          "id": "H11_1",
+          "name": "Paragraph Icon",
+          "usage": "Align Left",
+          "group_type": "H"
+        },
+        {
+          "id": "H11_2",
+          "name": "Paragraph Icon",
+          "usage": "Align Center",
+          "group_type": "H"
+        },
+        {
+          "id": "H11_3",
+          "name": "Paragraph Icon",
+          "usage": "Sort",
+          "group_type": "H"
+        },
+        {
+          "id": "H11_4",
+          "name": "Paragraph Icon",
+          "usage": "Show/Hide Paragraph Marks",
+          "group_type": "H"
+        },
+        {
+          "id": "H12_1",
+          "name": "Download icon",
+          "usage": "Save to cloud",
+          "group_type": "H"
+        },
+        {
+          "id": "H12_2",
+          "name": "Arrow icon",
+          "usage": "Styles",
+          "group_type": "H"
+        },
+        {
+          "id": "H13_1",
+          "name": "Paragraph icon",
+          "usage": "Dictate",
+          "group_type": "H"
+        },
+        {
+          "id": "H14_1",
+          "name": "Normal",
+          "usage": "Sets text to normal style",
+          "group_type": "H"
+        },
+        {
+          "id": "H14_2",
+          "name": "No Spacing",
+          "usage": "Removes spacing from text",
+          "group_type": "H"
+        },
+        {
+          "id": "H14_3",
+          "name": "Heading",
+          "usage": "Sets text to heading style",
+          "group_type": "H"
+        },
+        {
+          "id": "H14_4",
+          "name": "Heading 2",
+          "usage": "Sets text to heading 2 style",
+          "group_type": "H"
+        },
+        {
+          "id": "H14_5",
+          "name": "Title",
+          "usage": "Sets text to title style",
+          "group_type": "H"
+        },
+        {
+          "id": "H14_6",
+          "name": "Subtitle",
+          "usage": "Sets text to subtitle style",
+          "group_type": "H"
+        },
+        {
+          "id": "H14_7",
+          "name": "Subtle Emphasis",
+          "usage": "Sets text to subtle emphasis style",
+          "group_type": "H"
+        },
+        {
+          "id": "H14_8",
+          "name": "Ruler Icon",
+          "usage": "Layout Options",
+          "group_type": "H"
+        },
+        {
+          "id": "H14_9",
+          "name": "Replace",
+          "usage": "Find and Replace Text",
+          "group_type": "H"
+        },
+        {
+          "id": "H15_1",
+          "name": "Search",
+          "usage": "Search for text within the document",
+          "group_type": "H"
+        },
+        {
+          "id": "H16_1",
+          "name": "Magnifying Glass Icon",
+          "usage": "Zoom in",
+          "group_type": "H"
+        },
+        {
+          "id": "H17_1",
+          "name": "Magnifying Glass Icon",
+          "usage": "Zoom Out",
+          "group_type": "H"
+        },
+        {
+          "id": "H18_1",
+          "name": "Square Icon",
+          "usage": "Read Aloud",
+          "group_type": "H"
+        },
+        {
+          "id": "H19_1",
+          "name": "Up Arrow",
+          "usage": "Navigate Up",
+          "group_type": "H"
+        },
+        {
+          "id": "H19_2",
+          "name": "46",
+          "usage": "Line Numbering",
+          "group_type": "H"
+        },
+        {
+          "id": "H19_3",
+          "name": "44",
+          "usage": "View comments",
+          "group_type": "H"
+        },
+        {
+          "id": "H19_4",
+          "name": "Chart icon",
+          "usage": "Track Changes",
+          "group_type": "H"
+        },
+        {
+          "id": "H19_5",
+          "name": "Grid icon",
+          "usage": "Show markup area",
+          "group_type": "H"
+        },
+        {
+          "id": "H19_6",
+          "name": "ENG IN",
+          "usage": "Language settings",
+          "group_type": "H"
+        },
+        {
+          "id": "H19_7",
+          "name": "Wifi Icon",
+          "usage": "Online status",
+          "group_type": "H"
+        },
+        {
+          "id": "H19_8",
+          "name": "Speaker Icon",
+          "usage": "Narrate",
+          "group_type": "H"
+        },
+        {
+          "id": "H19_9",
+          "name": "Printer Icon",
+          "usage": "Print",
+          "group_type": "H"
+        }
+      ],
+      "raw_response": "H0_1: \"W Icon\" | Usage: \"Opens or creates a new Word document\"\nH0_2: \"AutoSave\" | Usage: \"Toggles automatic saving of the document\"\nH0_3: \"Off\" | Usage: \"Turns off autosave feature\"\nH0_4: \"Disk Icon\" | Usage: \"Saves the current document\"\nH0_5: \"Curved Arrow Left\" | Usage: \"Undo the last action\"\nH0_6: \"Curved Arrow Right\" | Usage: \"Redo the last undone action\"\nH0_7: \"Down Arrow\" | Usage: \"Opens a dropdown menu for customization\"\nH0_8: \"Document1 - Word\" | Usage: \"Displays the name of the current document and application\"\nH1_1: \"Page 1 of 1\" | Usage: \"Shows the current page number and total pages\"\nH1_2: \"0 words\" | Usage: \"Displays the word count of the document\"\nH1_3: \"Book Icon\" | Usage: \"Opens the readability statistics\"\nH1_4: \"English (India)\" | Usage: \"Specifies the document's language\"\nH1_5: \"Accessibility: Good to go\" | Usage: \"Indicates accessibility status of the document\"\nH2_1: \"Windows Icon\" | Usage: \"Opens the Start Menu\"\nH2_2: \"Magnifying Glass\" | Usage: \"Opens the search function\"\nH2_3: \"File Explorer Icon\" | Usage: \"Opens file explorer\"\nH2_4: \"App Icon\" | Usage: \"Opens the associated application\"\nH2_5: \"App Icon\" | Usage: \"Opens the associated application\"\nH2_6: \"App Icon\" | Usage: \"Opens the associated application\"\nH2_7: \"App Icon\" | Usage: \"Opens the associated application\"\nH2_8: \"App Icon\" | Usage: \"Opens the associated application\"\nH2_9: \"App Icon\" | Usage: \"Opens the associated application\"\nH2_10: \"App Icon\" | Usage: \"Opens the associated application\"\nH2_11: \"App Icon\" | Usage: \"Opens the associated application\"\nH2_12: \"App Icon\" | Usage: \"Opens the associated application\"\nH2_13: \"App Icon\" | Usage: \"Opens the associated application\"\nH3_1: \"File\" | Usage: \"Opens the file menu\"\nH3_2: \"Home\" | Usage: \"Navigates to the Home tab\"\nH3_3: \"Insert\" | Usage: \"Navigates to the Insert tab\"\nH3_4: \"Draw\" | Usage: \"Navigates to the Draw tab\"\nH3_5: \"Design\" | Usage: \"Navigates to the Design tab\"\nH3_6: \"Layout\" | Usage: \"Navigates to the Layout tab\"\nH3_7: \"References\" | Usage: \"Navigates to the References tab\"\nH3_8: \"Mailings\" | Usage: \"Navigates to the Mailings tab\"\nH3_9: \"Review\" | Usage: \"Navigates to the Review tab\"\nH3_10: \"View\" | Usage: \"Navigates to the View tab\"\nH4_1: \"Down Arrow\" | Usage: \"Opens a dropdown menu\"\nH4_2: \"Format Painter\" | Usage: \"Copies formatting from one area to another\"\nH5_1: \"Clipboard\" | Usage: \"Opens the clipboard pane\"\nH6_1: \"Dialog Box Launcher\" | Usage: \"Launches the font dialog box\"\nH7_1: \"Calibri (Body)\" | Usage: \"Sets the font type\"\nH7_2: \"12\" | Usage: \"Sets the font size\"\nH8_1: \"B\" | Usage: \"Toggles bold text formatting\"\nH8_2: \"I\" | Usage: \"Toggles italic text formatting\"\nH8_3: \"U\" | Usage: \"Toggles underline text formatting\"\nH8_4: \"ab\" | Usage: \"Strikethrough text\"\nH8_5: \"X2\" | Usage: \"Subscript text\"\nH8_6: \"X^2\" | Usage: \"Superscript text\"\nH8_7: \"A with dropdown\" | Usage: \"Changes text color\"\nH8_8: \"Pencil Icon\" | Usage: \"Highlights selected text\"\nH8_9: \"A with down arrow\" | Usage: \"Text Effects and Typography\"\nH8_10: \"Paragraph Icon\" | Usage: \"Align text left\"\nH8_11: \"Paragraph Icon\" | Usage: \"Align text center\"\nH8_12: \"Paragraph Icon\" | Usage: \"Align text right\"\nH9_1: \"12\" | Usage: \"Sets the font size\"\nH9_2: \"A with up arrow\" | Usage: \"Increase font size\"\nH9_3: \"A Aa with down arrow\" | Usage: \"Change Case\"\nH9_4: \"Paragraph Icon\" | Usage: \"Font color\"\nH9_5: \"Bullet Points\" | Usage: \"Add bullet points\"\nH9_6: \"Numbering\" | Usage: \"Add numbering\"\nH10_1: \"A with line\" | Usage: \"Increase indent\"\nH11_1: \"Paragraph Icon\" | Usage: \"Align Left\"\nH11_2: \"Paragraph Icon\" | Usage: \"Align Center\"\nH11_3: \"Paragraph Icon\" | Usage: \"Sort\"\nH11_4: \"Paragraph Icon\" | Usage: \"Show/Hide Paragraph Marks\"\nH12_1: \"Download icon\" | Usage: \"Save to cloud\"\nH12_2: \"Arrow icon\" | Usage: \"Styles\"\nH13_1: \"Paragraph icon\" | Usage: \"Dictate\"\nH14_1: \"Normal\" | Usage: \"Sets text to normal style\"\nH14_2: \"No Spacing\" | Usage: \"Removes spacing from text\"\nH14_3: \"Heading\" | Usage: \"Sets text to heading style\"\nH14_4: \"Heading 2\" | Usage: \"Sets text to heading 2 style\"\nH14_5: \"Title\" | Usage: \"Sets text to title style\"\nH14_6: \"Subtitle\" | Usage: \"Sets text to subtitle style\"\nH14_7: \"Subtle Emphasis\" | Usage: \"Sets text to subtle emphasis style\"\nH14_8: \"Ruler Icon\" | Usage: \"Layout Options\"\nH14_9: \"Replace\" | Usage: \"Find and Replace Text\"\nH15_1: \"Search\" | Usage: \"Search for text within the document\"\nH16_1: \"Magnifying Glass Icon\" | Usage: \"Zoom in\"\nH17_1: \"Magnifying Glass Icon\" | Usage: \"Zoom Out\"\nH18_1: \"Square Icon\" | Usage: \"Read Aloud\"\nH19_1: \"Up Arrow\" | Usage: \"Navigate Up\"\nH19_2: \"46\" | Usage: \"Line Numbering\"\nH19_3: \"44\" | Usage: \"View comments\"\nH19_4: \"Chart icon\" | Usage: \"Track Changes\"\nH19_5: \"Grid icon\" | Usage: \"Show markup area\"\nH19_6: \"ENG IN\" | Usage: \"Language settings\"\nH19_7: \"Wifi Icon\" | Usage: \"Online status\"\nH19_8: \"Speaker Icon\" | Usage: \"Narrate\"\nH19_9: \"Printer Icon\" | Usage: \"Print\"\n",
+      "analysis_success": true
+    },
+    {
+      "image_path": "direct:combined_groups_1_34_bboxes.png",
+      "image_name": "combined_groups_1_34_bboxes.png",
+      "icons_found": 34,
+      "icons": [
+        {
+          "id": "H20_1",
+          "name": "Focus",
+          "usage": "Sets the focus on a particular element or area",
+          "group_type": "H"
+        },
+        {
+          "id": "H20_2",
+          "name": "List Icon",
+          "usage": "Represents a list or table of contents",
+          "group_type": "H"
+        },
+        {
+          "id": "H20_3",
+          "name": "List Icon",
+          "usage": "Shows another list type option",
+          "group_type": "H"
+        },
+        {
+          "id": "H20_4",
+          "name": "Grid Icon",
+          "usage": "Displays content as a grid or layout",
+          "group_type": "H"
+        },
+        {
+          "id": "H20_5",
+          "name": "Minus Icon",
+          "usage": "Represents the ability to minimize something",
+          "group_type": "H"
+        },
+        {
+          "id": "H21_1",
+          "name": "Comments",
+          "usage": "Opens the comments panel",
+          "group_type": "H"
+        },
+        {
+          "id": "H21_2",
+          "name": "Editing",
+          "usage": "Opens the editing options menu",
+          "group_type": "H"
+        },
+        {
+          "id": "H21_3",
+          "name": "Share",
+          "usage": "Opens the share settings",
+          "group_type": "H"
+        },
+        {
+          "id": "H22_1",
+          "name": "Add-ins",
+          "usage": "Opens the add-ins dialog",
+          "group_type": "H"
+        },
+        {
+          "id": "H22_2",
+          "name": "be amazing",
+          "usage": "Text caption, possibly a note to self",
+          "group_type": "H"
+        },
+        {
+          "id": "H22_3",
+          "name": "ChatGPT for MS...",
+          "usage": "Opens the ChatGPT plugin",
+          "group_type": "H"
+        },
+        {
+          "id": "H23_1",
+          "name": "SY",
+          "usage": "Synchronization status or indicator",
+          "group_type": "H"
+        },
+        {
+          "id": "H23_2",
+          "name": "Minus Icon",
+          "usage": "Represents a remove or decrease function",
+          "group_type": "H"
+        },
+        {
+          "id": "H23_3",
+          "name": "Square Icon",
+          "usage": "Shows the toggle state option",
+          "group_type": "H"
+        },
+        {
+          "id": "H23_4",
+          "name": "X",
+          "usage": "Closes or dismisses something",
+          "group_type": "H"
+        },
+        {
+          "id": "H24_1",
+          "name": "Wifi Signal Icon",
+          "usage": "Indicates network connectivity or sharing options",
+          "group_type": "H"
+        },
+        {
+          "id": "H24_2",
+          "name": "12-07-2025",
+          "usage": "Displays the current date",
+          "group_type": "H"
+        },
+        {
+          "id": "H25_1",
+          "name": "MS Word",
+          "usage": "Opens Microsoft Word application",
+          "group_type": "H"
+        },
+        {
+          "id": "H26_1",
+          "name": "Plus Icon",
+          "usage": "Used to zoom in or increase value",
+          "group_type": "H"
+        },
+        {
+          "id": "V0_1",
+          "name": "Paint Bucket Icon",
+          "usage": "Applies background or highlight color",
+          "group_type": "V"
+        },
+        {
+          "id": "V0_2",
+          "name": "Paste",
+          "usage": "Pastes content from the clipboard",
+          "group_type": "V"
+        },
+        {
+          "id": "V1_1",
+          "name": "Cut",
+          "usage": "Cuts the selected content",
+          "group_type": "V"
+        },
+        {
+          "id": "V2_1",
+          "name": "Font",
+          "usage": "Opens the font menu",
+          "group_type": "V"
+        },
+        {
+          "id": "V3_1",
+          "name": "Find",
+          "usage": "Opens the find and replace dialog",
+          "group_type": "V"
+        },
+        {
+          "id": "V3_2",
+          "name": "Select",
+          "usage": "Opens the select options menu",
+          "group_type": "V"
+        },
+        {
+          "id": "V3_3",
+          "name": "Editing",
+          "usage": "Opens the editing options menu",
+          "group_type": "V"
+        },
+        {
+          "id": "V4_1",
+          "name": "List Formatting Options",
+          "usage": "Opens the list and indentation options menu",
+          "group_type": "V"
+        },
+        {
+          "id": "V4_2",
+          "name": "Paragraph Formatting Options",
+          "usage": "Opens the paragraph alignment and spacing options menu",
+          "group_type": "V"
+        },
+        {
+          "id": "V4_3",
+          "name": "Paragraph",
+          "usage": "Opens the Paragraph options menu",
+          "group_type": "V"
+        },
+        {
+          "id": "V5_1",
+          "name": "GPT",
+          "usage": "AI writing assistance tool",
+          "group_type": "V"
+        },
+        {
+          "id": "V6_1",
+          "name": "Styles",
+          "usage": "Opens the styles pane",
+          "group_type": "V"
+        },
+        {
+          "id": "V7_1",
+          "name": "Copy",
+          "usage": "Copies content to the clipboard",
+          "group_type": "V"
+        },
+        {
+          "id": "V8_1",
+          "name": "100%",
+          "usage": "Zoom percentage",
+          "group_type": "V"
+        },
+        {
+          "id": "V8_2",
+          "name": "13:16:10",
+          "usage": "Current time",
+          "group_type": "V"
+        }
+      ],
+      "raw_response": "H20_1: \"Focus\" | Usage: \"Sets the focus on a particular element or area\"\nH20_2: \"List Icon\" | Usage: \"Represents a list or table of contents\"\nH20_3: \"List Icon\" | Usage: \"Shows another list type option\"\nH20_4: \"Grid Icon\" | Usage: \"Displays content as a grid or layout\"\nH20_5: \"Minus Icon\" | Usage: \"Represents the ability to minimize something\"\nH21_1: \"Comments\" | Usage: \"Opens the comments panel\"\nH21_2: \"Editing\" | Usage: \"Opens the editing options menu\"\nH21_3: \"Share\" | Usage: \"Opens the share settings\"\nH22_1: \"Add-ins\" | Usage: \"Opens the add-ins dialog\"\nH22_2: \"be amazing\" | Usage: \"Text caption, possibly a note to self\"\nH22_3: \"ChatGPT for MS...\" | Usage: \"Opens the ChatGPT plugin\"\nH23_1: \"SY\" | Usage: \"Synchronization status or indicator\"\nH23_2: \"Minus Icon\" | Usage: \"Represents a remove or decrease function\"\nH23_3: \"Square Icon\" | Usage: \"Shows the toggle state option\"\nH23_4: \"X\" | Usage: \"Closes or dismisses something\"\nH24_1: \"Wifi Signal Icon\" | Usage: \"Indicates network connectivity or sharing options\"\nH24_2: \"12-07-2025\" | Usage: \"Displays the current date\"\nH25_1: \"MS Word\" | Usage: \"Opens Microsoft Word application\"\nH26_1: \"Plus Icon\" | Usage: \"Used to zoom in or increase value\"\nV0_1: \"Paint Bucket Icon\" | Usage: \"Applies background or highlight color\"\nV0_2: \"Paste\" | Usage: \"Pastes content from the clipboard\"\nV1_1: \"Cut\" | Usage: \"Cuts the selected content\"\nV2_1: \"Font\" | Usage: \"Opens the font menu\"\nV3_1: \"Find\" | Usage: \"Opens the find and replace dialog\"\nV3_2: \"Select\" | Usage: \"Opens the select options menu\"\nV3_3: \"Editing\" | Usage: \"Opens the editing options menu\"\nV4_1: \"List Formatting Options\" | Usage: \"Opens the list and indentation options menu\"\nV4_2: \"Paragraph Formatting Options\" | Usage: \"Opens the paragraph alignment and spacing options menu\"\nV4_3: \"Paragraph\" | Usage: \"Opens the Paragraph options menu\"\nV5_1: \"GPT\" | Usage: \"AI writing assistance tool\"\nV6_1: \"Styles\" | Usage: \"Opens the styles pane\"\nV7_1: \"Copy\" | Usage: \"Copies content to the clipboard\"\nV8_1: \"100%\" | Usage: \"Zoom percentage\"\nV8_2: \"13:16:10\" | Usage: \"Current time\"\n",
+      "analysis_success": true
+    }
+  ]
+}

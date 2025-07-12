@@ -1,0 +1,6860 @@
+{
+  "pipeline_version": "v1.2_enhanced_with_gemini",
+  "timestamp": "2025-07-12T13:12:29.144981",
+  "image_info": {
+    "filename": "screenshot_20250712_131212_step_1.jpg",
+    "path": "outputs\\2025\\07\\12\\session_20250712_131212\\step_1\\screenshot_20250712_131212_step_1.jpg"
+  },
+  "detection_summary": {
+    "yolo_count": 105,
+    "ocr_count": 109,
+    "merged_count": 139,
+    "total_input": 214,
+    "merge_efficiency": "75 removed"
+  },
+  "seraphine_summary": {
+    "total_groups": 36,
+    "horizontal_groups": 28,
+    "vertical_groups": 8,
+    "long_box_groups": 0,
+    "grouping_efficiency": 0.2589928057553957
+  },
+  "gemini_summary": {
+    "enabled": true,
+    "total_icons_analyzed": 113,
+    "successful_analyses": 2,
+    "analysis_time": 12.365653
+  },
+  "timing_breakdown": {
+    "total_detection_time": 4.004094839096069,
+    "parallel_detection_time": 3.9449565410614014,
+    "merge_time": 0.058135986328125,
+    "seraphine_time": 0.027879714965820312,
+    "gemini_time": 12.365653
+  },
+  "detections": {
+    "yolo_detections": [
+      {
+        "bbox": [
+          752,
+          88,
+          867,
+          151
+        ],
+        "type": "icon",
+        "source": "yolo",
+        "confidence": 1.0,
+        "y_id": "Y001"
+      },
+      {
+        "bbox": [
+          1082,
+          92,
+          1186,
+          145
+        ],
+        "type": "icon",
+        "source": "yolo",
+        "confidence": 1.0,
+        "y_id": "Y002"
+      },
+      {
+        "bbox": [
+          1189,
+          93,
+          1295,
+          145
+        ],
+        "type": "icon",
+        "source": "yolo",
+        "confidence": 1.0,
+        "y_id": "Y003"
+      },
+      {
+        "bbox": [
+          975,
+          92,
+          1079,
+          145
+        ],
+        "type": "icon",
+        "source": "yolo",
+        "confidence": 1.0,
+        "y_id": "Y004"
+      },
+      {
+        "bbox": [
+          1298,
+          93,
+          1403,
+          145
+        ],
+        "type": "icon",
+        "source": "yolo",
+        "confidence": 1.0,
+        "y_id": "Y005"
+      },
+      {
+        "bbox": [
+          864,
+          89,
+          971,
+          149
+        ],
+        "type": "icon",
+        "source": "yolo",
+        "confidence": 1.0,
+        "y_id": "Y006"
+      },
+      {
+        "bbox": [
+          1645,
+          79,
+          1707,
+          176
+        ],
+        "type": "icon",
+        "source": "yolo",
+        "confidence": 1.0,
+        "y_id": "Y007"
+      },
+      {
+        "bbox": [
+          189,
+          87,
+          316,
+          115
+        ],
+        "type": "icon",
+        "source": "yolo",
+        "confidence": 1.0,
+        "y_id": "Y008"
+      },
+      {
+        "bbox": [
+          316,
+          88,
+          362,
+          115
+        ],
+        "type": "icon",
+        "source": "yolo",
+        "confidence": 1.0,
+        "y_id": "Y009"
+      },
+      {
+        "bbox": [
+          1707,
+          79,
+          1776,
+          175
+        ],
+        "type": "icon",
+        "source": "yolo",
+        "confidence": 1.0,
+        "y_id": "Y010"
+      },
+      {
+        "bbox": [
+          1645,
+          49,
+          1741,
+          76
+        ],
+        "type": "icon",
+        "source": "yolo",
+        "confidence": 1.0,
+        "y_id": "Y011"
+      },
+      {
+        "bbox": [
+          1834,
+          49,
+          1911,
+          76
+        ],
+        "type": "icon",
+        "source": "yolo",
+        "confidence": 1.0,
+        "y_id": "Y012"
+      },
+      {
+        "bbox": [
+          1744,
+          49,
+          1831,
+          77
+        ],
+        "type": "icon",
+        "source": "yolo",
+        "confidence": 1.0,
+        "y_id": "Y013"
+      },
+      {
+        "bbox": [
+          17,
+          79,
+          65,
+          157
+        ],
+        "type": "icon",
+        "source": "yolo",
+        "confidence": 1.0,
+        "y_id": "Y014"
+      },
+      {
+        "bbox": [
+          610,
+          121,
+          644,
+          144
+        ],
+        "type": "icon",
+        "source": "yolo",
+        "confidence": 1.0,
+        "y_id": "Y015"
+      },
+      {
+        "bbox": [
+          364,
+          120,
+          400,
+          145
+        ],
+        "type": "icon",
+        "source": "yolo",
+        "confidence": 1.0,
+        "y_id": "Y016"
+      },
+      {
+        "bbox": [
+          61,
+          132,
+          176,
+          157
+        ],
+        "type": "icon",
+        "source": "yolo",
+        "confidence": 1.0,
+        "y_id": "Y017"
+      },
+      {
+        "bbox": [
+          1557,
+          135,
+          1640,
+          158
+        ],
+        "type": "icon",
+        "source": "yolo",
+        "confidence": 1.0,
+        "y_id": "Y018"
+      },
+      {
+        "bbox": [
+          366,
+          90,
+          384,
+          112
+        ],
+        "type": "icon",
+        "source": "yolo",
+        "confidence": 1.0,
+        "y_id": "Y019"
+      },
+      {
+        "bbox": [
+          653,
+          121,
+          690,
+          145
+        ],
+        "type": "icon",
+        "source": "yolo",
+        "confidence": 1.0,
+        "y_id": "Y020"
+      },
+      {
+        "bbox": [
+          56,
+          1033,
+          97,
+          1079
+        ],
+        "type": "icon",
+        "source": "yolo",
+        "confidence": 1.0,
+        "y_id": "Y021"
+      },
+      {
+        "bbox": [
+          585,
+          90,
+          619,
+          113
+        ],
+        "type": "icon",
+        "source": "yolo",
+        "confidence": 1.0,
+        "y_id": "Y022"
+      },
+      {
+        "bbox": [
+          284,
+          124,
+          308,
+          144
+        ],
+        "type": "icon",
+        "source": "yolo",
+        "confidence": 1.0,
+        "y_id": "Y023"
+      },
+      {
+        "bbox": [
+          405,
+          119,
+          443,
+          145
+        ],
+        "type": "icon",
+        "source": "yolo",
+        "confidence": 1.0,
+        "y_id": "Y024"
+      },
+      {
+        "bbox": [
+          244,
+          122,
+          280,
+          143
+        ],
+        "type": "icon",
+        "source": "yolo",
+        "confidence": 1.0,
+        "y_id": "Y025"
+      },
+      {
+        "bbox": [
+          447,
+          120,
+          485,
+          145
+        ],
+        "type": "icon",
+        "source": "yolo",
+        "confidence": 1.0,
+        "y_id": "Y026"
+      },
+      {
+        "bbox": [
+          673,
+          1036,
+          713,
+          1078
+        ],
+        "type": "icon",
+        "source": "yolo",
+        "confidence": 1.0,
+        "y_id": "Y027"
+      },
+      {
+        "bbox": [
+          501,
+          90,
+          539,
+          112
+        ],
+        "type": "icon",
+        "source": "yolo",
+        "confidence": 1.0,
+        "y_id": "Y028"
+      },
+      {
+        "bbox": [
+          697,
+          122,
+          736,
+          143
+        ],
+        "type": "icon",
+        "source": "yolo",
+        "confidence": 1.0,
+        "y_id": "Y029"
+      },
+      {
+        "bbox": [
+          758,
+          1036,
+          804,
+          1080
+        ],
+        "type": "icon",
+        "source": "yolo",
+        "confidence": 1.0,
+        "y_id": "Y030"
+      },
+      {
+        "bbox": [
+          231,
+          1034,
+          272,
+          1078
+        ],
+        "type": "icon",
+        "source": "yolo",
+        "confidence": 1.0,
+        "y_id": "Y031"
+      },
+      {
+        "bbox": [
+          630,
+          1036,
+          672,
+          1079
+        ],
+        "type": "icon",
+        "source": "yolo",
+        "confidence": 1.0,
+        "y_id": "Y032"
+      },
+      {
+        "bbox": [
+          1512,
+          88,
+          1540,
+          151
+        ],
+        "type": "icon",
+        "source": "yolo",
+        "confidence": 1.0,
+        "y_id": "Y033"
+      },
+      {
+        "bbox": [
+          188,
+          1034,
+          228,
+          1079
+        ],
+        "type": "icon",
+        "source": "yolo",
+        "confidence": 1.0,
+        "y_id": "Y034"
+      },
+      {
+        "bbox": [
+          313,
+          124,
+          334,
+          144
+        ],
+        "type": "icon",
+        "source": "yolo",
+        "confidence": 1.0,
+        "y_id": "Y035"
+      },
+      {
+        "bbox": [
+          421,
+          91,
+          451,
+          112
+        ],
+        "type": "icon",
+        "source": "yolo",
+        "confidence": 1.0,
+        "y_id": "Y036"
+      },
+      {
+        "bbox": [
+          392,
+          91,
+          410,
+          112
+        ],
+        "type": "icon",
+        "source": "yolo",
+        "confidence": 1.0,
+        "y_id": "Y037"
+      },
+      {
+        "bbox": [
+          686,
+          92,
+          707,
+          113
+        ],
+        "type": "icon",
+        "source": "yolo",
+        "confidence": 1.0,
+        "y_id": "Y038"
+      },
+      {
+        "bbox": [
+          462,
+          90,
+          486,
+          113
+        ],
+        "type": "icon",
+        "source": "yolo",
+        "confidence": 1.0,
+        "y_id": "Y039"
+      },
+      {
+        "bbox": [
+          498,
+          119,
+          529,
+          149
+        ],
+        "type": "icon",
+        "source": "yolo",
+        "confidence": 1.0,
+        "y_id": "Y040"
+      },
+      {
+        "bbox": [
+          583,
+          1036,
+          628,
+          1079
+        ],
+        "type": "icon",
+        "source": "yolo",
+        "confidence": 1.0,
+        "y_id": "Y041"
+      },
+      {
+        "bbox": [
+          339,
+          123,
+          358,
+          144
+        ],
+        "type": "icon",
+        "source": "yolo",
+        "confidence": 1.0,
+        "y_id": "Y042"
+      },
+      {
+        "bbox": [
+          101,
+          10,
+          149,
+          35
+        ],
+        "type": "icon",
+        "source": "yolo",
+        "confidence": 1.0,
+        "y_id": "Y043"
+      },
+      {
+        "bbox": [
+          101,
+          1033,
+          143,
+          1078
+        ],
+        "type": "icon",
+        "source": "yolo",
+        "confidence": 1.0,
+        "y_id": "Y044"
+      },
+      {
+        "bbox": [
+          717,
+          1035,
+          758,
+          1078
+        ],
+        "type": "icon",
+        "source": "yolo",
+        "confidence": 1.0,
+        "y_id": "Y045"
+      },
+      {
+        "bbox": [
+          542,
+          90,
+          579,
+          112
+        ],
+        "type": "icon",
+        "source": "yolo",
+        "confidence": 1.0,
+        "y_id": "Y046"
+      },
+      {
+        "bbox": [
+          1406,
+          90,
+          1512,
+          151
+        ],
+        "type": "icon",
+        "source": "yolo",
+        "confidence": 1.0,
+        "y_id": "Y047"
+      },
+      {
+        "bbox": [
+          277,
+          1034,
+          319,
+          1078
+        ],
+        "type": "icon",
+        "source": "yolo",
+        "confidence": 1.0,
+        "y_id": "Y048"
+      },
+      {
+        "bbox": [
+          935,
+          1035,
+          978,
+          1079
+        ],
+        "type": "icon",
+        "source": "yolo",
+        "confidence": 1.0,
+        "y_id": "Y049"
+      },
+      {
+        "bbox": [
+          581,
+          121,
+          605,
+          146
+        ],
+        "type": "icon",
+        "source": "yolo",
+        "confidence": 1.0,
+        "y_id": "Y050"
+      },
+      {
+        "bbox": [
+          629,
+          92,
+          653,
+          112
+        ],
+        "type": "icon",
+        "source": "yolo",
+        "confidence": 1.0,
+        "y_id": "Y051"
+      },
+      {
+        "bbox": [
+          539,
+          1035,
+          579,
+          1079
+        ],
+        "type": "icon",
+        "source": "yolo",
+        "confidence": 1.0,
+        "y_id": "Y052"
+      },
+      {
+        "bbox": [
+          805,
+          1036,
+          843,
+          1079
+        ],
+        "type": "icon",
+        "source": "yolo",
+        "confidence": 1.0,
+        "y_id": "Y053"
+      },
+      {
+        "bbox": [
+          144,
+          1033,
+          186,
+          1079
+        ],
+        "type": "icon",
+        "source": "yolo",
+        "confidence": 1.0,
+        "y_id": "Y054"
+      },
+      {
+        "bbox": [
+          191,
+          121,
+          214,
+          144
+        ],
+        "type": "icon",
+        "source": "yolo",
+        "confidence": 1.0,
+        "y_id": "Y055"
+      },
+      {
+        "bbox": [
+          716,
+          91,
+          736,
+          113
+        ],
+        "type": "icon",
+        "source": "yolo",
+        "confidence": 1.0,
+        "y_id": "Y056"
+      },
+      {
+        "bbox": [
+          7,
+          3,
+          41,
+          43
+        ],
+        "type": "icon",
+        "source": "yolo",
+        "confidence": 1.0,
+        "y_id": "Y057"
+      },
+      {
+        "bbox": [
+          893,
+          1035,
+          934,
+          1079
+        ],
+        "type": "icon",
+        "source": "yolo",
+        "confidence": 1.0,
+        "y_id": "Y058"
+      },
+      {
+        "bbox": [
+          1553,
+          1008,
+          1616,
+          1030
+        ],
+        "type": "icon",
+        "source": "yolo",
+        "confidence": 1.0,
+        "y_id": "Y059"
+      },
+      {
+        "bbox": [
+          186,
+          3,
+          221,
+          40
+        ],
+        "type": "icon",
+        "source": "yolo",
+        "confidence": 1.0,
+        "y_id": "Y060"
+      },
+      {
+        "bbox": [
+          656,
+          91,
+          680,
+          112
+        ],
+        "type": "icon",
+        "source": "yolo",
+        "confidence": 1.0,
+        "y_id": "Y061"
+      },
+      {
+        "bbox": [
+          555,
+          121,
+          578,
+          147
+        ],
+        "type": "icon",
+        "source": "yolo",
+        "confidence": 1.0,
+        "y_id": "Y062"
+      },
+      {
+        "bbox": [
+          364,
+          1034,
+          406,
+          1079
+        ],
+        "type": "icon",
+        "source": "yolo",
+        "confidence": 1.0,
+        "y_id": "Y063"
+      },
+      {
+        "bbox": [
+          1556,
+          78,
+          1638,
+          107
+        ],
+        "type": "icon",
+        "source": "yolo",
+        "confidence": 1.0,
+        "y_id": "Y064"
+      },
+      {
+        "bbox": [
+          411,
+          1035,
+          448,
+          1080
+        ],
+        "type": "icon",
+        "source": "yolo",
+        "confidence": 1.0,
+        "y_id": "Y065"
+      },
+      {
+        "bbox": [
+          498,
+          1035,
+          535,
+          1079
+        ],
+        "type": "icon",
+        "source": "yolo",
+        "confidence": 1.0,
+        "y_id": "Y066"
+      },
+      {
+        "bbox": [
+          321,
+          1034,
+          360,
+          1079
+        ],
+        "type": "icon",
+        "source": "yolo",
+        "confidence": 1.0,
+        "y_id": "Y067"
+      },
+      {
+        "bbox": [
+          848,
+          1036,
+          889,
+          1079
+        ],
+        "type": "icon",
+        "source": "yolo",
+        "confidence": 1.0,
+        "y_id": "Y068"
+      },
+      {
+        "bbox": [
+          775,
+          5,
+          1157,
+          47
+        ],
+        "type": "icon",
+        "source": "yolo",
+        "confidence": 1.0,
+        "y_id": "Y069"
+      },
+      {
+        "bbox": [
+          155,
+          3,
+          183,
+          39
+        ],
+        "type": "icon",
+        "source": "yolo",
+        "confidence": 1.0,
+        "y_id": "Y070"
+      },
+      {
+        "bbox": [
+          62,
+          105,
+          175,
+          135
+        ],
+        "type": "icon",
+        "source": "yolo",
+        "confidence": 1.0,
+        "y_id": "Y071"
+      },
+      {
+        "bbox": [
+          218,
+          122,
+          239,
+          143
+        ],
+        "type": "icon",
+        "source": "yolo",
+        "confidence": 1.0,
+        "y_id": "Y072"
+      },
+      {
+        "bbox": [
+          10,
+          1032,
+          53,
+          1078
+        ],
+        "type": "icon",
+        "source": "yolo",
+        "confidence": 1.0,
+        "y_id": "Y073"
+      },
+      {
+        "bbox": [
+          1709,
+          1034,
+          1746,
+          1075
+        ],
+        "type": "icon",
+        "source": "yolo",
+        "confidence": 1.0,
+        "y_id": "Y074"
+      },
+      {
+        "bbox": [
+          455,
+          1036,
+          490,
+          1079
+        ],
+        "type": "icon",
+        "source": "yolo",
+        "confidence": 1.0,
+        "y_id": "Y075"
+      },
+      {
+        "bbox": [
+          1784,
+          81,
+          1873,
+          156
+        ],
+        "type": "icon",
+        "source": "yolo",
+        "confidence": 1.0,
+        "y_id": "Y076"
+      },
+      {
+        "bbox": [
+          531,
+          120,
+          551,
+          147
+        ],
+        "type": "icon",
+        "source": "yolo",
+        "confidence": 1.0,
+        "y_id": "Y077"
+      },
+      {
+        "bbox": [
+          793,
+          13,
+          814,
+          36
+        ],
+        "type": "icon",
+        "source": "yolo",
+        "confidence": 1.0,
+        "y_id": "Y078"
+      },
+      {
+        "bbox": [
+          1705,
+          1007,
+          1733,
+          1031
+        ],
+        "type": "icon",
+        "source": "yolo",
+        "confidence": 1.0,
+        "y_id": "Y079"
+      },
+      {
+        "bbox": [
+          1780,
+          8,
+          1821,
+          39
+        ],
+        "type": "icon",
+        "source": "yolo",
+        "confidence": 1.0,
+        "y_id": "Y080"
+      },
+      {
+        "bbox": [
+          1664,
+          1006,
+          1698,
+          1031
+        ],
+        "type": "icon",
+        "source": "yolo",
+        "confidence": 1.0,
+        "y_id": "Y081"
+      },
+      {
+        "bbox": [
+          1737,
+          9,
+          1767,
+          40
+        ],
+        "type": "icon",
+        "source": "yolo",
+        "confidence": 1.0,
+        "y_id": "Y082"
+      },
+      {
+        "bbox": [
+          285,
+          7,
+          416,
+          41
+        ],
+        "type": "icon",
+        "source": "yolo",
+        "confidence": 1.0,
+        "y_id": "Y083"
+      },
+      {
+        "bbox": [
+          1877,
+          6,
+          1913,
+          41
+        ],
+        "type": "icon",
+        "source": "yolo",
+        "confidence": 1.0,
+        "y_id": "Y084"
+      },
+      {
+        "bbox": [
+          1880,
+          78,
+          1913,
+          174
+        ],
+        "type": "icon",
+        "source": "yolo",
+        "confidence": 1.0,
+        "y_id": "Y085"
+      },
+      {
+        "bbox": [
+          1752,
+          1040,
+          1777,
+          1074
+        ],
+        "type": "icon",
+        "source": "yolo",
+        "confidence": 1.0,
+        "y_id": "Y086"
+      },
+      {
+        "bbox": [
+          1622,
+          1005,
+          1660,
+          1031
+        ],
+        "type": "icon",
+        "source": "yolo",
+        "confidence": 1.0,
+        "y_id": "Y087"
+      },
+      {
+        "bbox": [
+          1556,
+          108,
+          1637,
+          131
+        ],
+        "type": "icon",
+        "source": "yolo",
+        "confidence": 1.0,
+        "y_id": "Y088"
+      },
+      {
+        "bbox": [
+          1611,
+          1043,
+          1640,
+          1066
+        ],
+        "type": "icon",
+        "source": "yolo",
+        "confidence": 1.0,
+        "y_id": "Y089"
+      },
+      {
+        "bbox": [
+          1580,
+          1043,
+          1606,
+          1067
+        ],
+        "type": "icon",
+        "source": "yolo",
+        "confidence": 1.0,
+        "y_id": "Y090"
+      },
+      {
+        "bbox": [
+          1799,
+          1036,
+          1826,
+          1074
+        ],
+        "type": "icon",
+        "source": "yolo",
+        "confidence": 1.0,
+        "y_id": "Y091"
+      },
+      {
+        "bbox": [
+          64,
+          78,
+          99,
+          108
+        ],
+        "type": "icon",
+        "source": "yolo",
+        "confidence": 1.0,
+        "y_id": "Y092"
+      },
+      {
+        "bbox": [
+          1546,
+          1043,
+          1576,
+          1070
+        ],
+        "type": "icon",
+        "source": "yolo",
+        "confidence": 1.0,
+        "y_id": "Y093"
+      },
+      {
+        "bbox": [
+          1902,
+          991,
+          1920,
+          1012
+        ],
+        "type": "icon",
+        "source": "yolo",
+        "confidence": 1.0,
+        "y_id": "Y094"
+      },
+      {
+        "bbox": [
+          1673,
+          1034,
+          1704,
+          1074
+        ],
+        "type": "icon",
+        "source": "yolo",
+        "confidence": 1.0,
+        "y_id": "Y095"
+      },
+      {
+        "bbox": [
+          247,
+          5,
+          276,
+          40
+        ],
+        "type": "icon",
+        "source": "yolo",
+        "confidence": 1.0,
+        "y_id": "Y096"
+      },
+      {
+        "bbox": [
+          1829,
+          7,
+          1867,
+          39
+        ],
+        "type": "icon",
+        "source": "yolo",
+        "confidence": 1.0,
+        "y_id": "Y097"
+      },
+      {
+        "bbox": [
+          1643,
+          1040,
+          1672,
+          1067
+        ],
+        "type": "icon",
+        "source": "yolo",
+        "confidence": 1.0,
+        "y_id": "Y098"
+      },
+      {
+        "bbox": [
+          1777,
+          1039,
+          1798,
+          1073
+        ],
+        "type": "icon",
+        "source": "yolo",
+        "confidence": 1.0,
+        "y_id": "Y099"
+      },
+      {
+        "bbox": [
+          1741,
+          1009,
+          1756,
+          1031
+        ],
+        "type": "icon",
+        "source": "yolo",
+        "confidence": 1.0,
+        "y_id": "Y100"
+      },
+      {
+        "bbox": [
+          1535,
+          160,
+          1547,
+          174
+        ],
+        "type": "icon",
+        "source": "yolo",
+        "confidence": 1.0,
+        "y_id": "Y101"
+      },
+      {
+        "bbox": [
+          223,
+          6,
+          249,
+          39
+        ],
+        "type": "icon",
+        "source": "yolo",
+        "confidence": 1.0,
+        "y_id": "Y102"
+      },
+      {
+        "bbox": [
+          0,
+          1032,
+          7,
+          1077
+        ],
+        "type": "icon",
+        "source": "yolo",
+        "confidence": 1.0,
+        "y_id": "Y103"
+      },
+      {
+        "bbox": [
+          1804,
+          1009,
+          1815,
+          1032
+        ],
+        "type": "icon",
+        "source": "yolo",
+        "confidence": 1.0,
+        "y_id": "Y104"
+      },
+      {
+        "bbox": [
+          238,
+          1011,
+          255,
+          1031
+        ],
+        "type": "icon",
+        "source": "yolo",
+        "confidence": 1.0,
+        "y_id": "Y105"
+      }
+    ],
+    "ocr_detections": [
+      {
+        "bbox": [
+          1715,
+          1053,
+          1745,
+          1077
+        ],
+        "type": "text",
+        "source": "ocr_det",
+        "confidence": 1.0,
+        "o_id": "O001"
+      },
+      {
+        "bbox": [
+          1834,
+          1051,
+          1908,
+          1075
+        ],
+        "type": "text",
+        "source": "ocr_det",
+        "confidence": 1.0,
+        "o_id": "O002"
+      },
+      {
+        "bbox": [
+          946,
+          1047,
+          966,
+          1066
+        ],
+        "type": "text",
+        "source": "ocr_det",
+        "confidence": 1.0,
+        "o_id": "O003"
+      },
+      {
+        "bbox": [
+          814,
+          1047,
+          837,
+          1068
+        ],
+        "type": "text",
+        "source": "ocr_det",
+        "confidence": 1.0,
+        "o_id": "O004"
+      },
+      {
+        "bbox": [
+          286,
+          1045,
+          314,
+          1068
+        ],
+        "type": "text",
+        "source": "ocr_det",
+        "confidence": 1.0,
+        "o_id": "O005"
+      },
+      {
+        "bbox": [
+          197,
+          1045,
+          224,
+          1068
+        ],
+        "type": "text",
+        "source": "ocr_det",
+        "confidence": 1.0,
+        "o_id": "O006"
+      },
+      {
+        "bbox": [
+          1753,
+          1044,
+          1830,
+          1069
+        ],
+        "type": "text",
+        "source": "ocr_det",
+        "confidence": 1.0,
+        "o_id": "O007"
+      },
+      {
+        "bbox": [
+          1672,
+          1044,
+          1706,
+          1068
+        ],
+        "type": "text",
+        "source": "ocr_det",
+        "confidence": 1.0,
+        "o_id": "O008"
+      },
+      {
+        "bbox": [
+          1646,
+          1044,
+          1673,
+          1068
+        ],
+        "type": "text",
+        "source": "ocr_det",
+        "confidence": 1.0,
+        "o_id": "O009"
+      },
+      {
+        "bbox": [
+          1612,
+          1044,
+          1640,
+          1069
+        ],
+        "type": "text",
+        "source": "ocr_det",
+        "confidence": 1.0,
+        "o_id": "O010"
+      },
+      {
+        "bbox": [
+          1580,
+          1044,
+          1610,
+          1071
+        ],
+        "type": "text",
+        "source": "ocr_det",
+        "confidence": 1.0,
+        "o_id": "O011"
+      },
+      {
+        "bbox": [
+          1550,
+          1044,
+          1580,
+          1068
+        ],
+        "type": "text",
+        "source": "ocr_det",
+        "confidence": 1.0,
+        "o_id": "O012"
+      },
+      {
+        "bbox": [
+          856,
+          1044,
+          885,
+          1071
+        ],
+        "type": "text",
+        "source": "ocr_det",
+        "confidence": 1.0,
+        "o_id": "O013"
+      },
+      {
+        "bbox": [
+          545,
+          1044,
+          576,
+          1071
+        ],
+        "type": "text",
+        "source": "ocr_det",
+        "confidence": 1.0,
+        "o_id": "O014"
+      },
+      {
+        "bbox": [
+          505,
+          1044,
+          530,
+          1069
+        ],
+        "type": "text",
+        "source": "ocr_det",
+        "confidence": 1.0,
+        "o_id": "O015"
+      },
+      {
+        "bbox": [
+          460,
+          1044,
+          488,
+          1069
+        ],
+        "type": "text",
+        "source": "ocr_det",
+        "confidence": 1.0,
+        "o_id": "O016"
+      },
+      {
+        "bbox": [
+          328,
+          1044,
+          356,
+          1069
+        ],
+        "type": "text",
+        "source": "ocr_det",
+        "confidence": 1.0,
+        "o_id": "O017"
+      },
+      {
+        "bbox": [
+          415,
+          1042,
+          444,
+          1071
+        ],
+        "type": "text",
+        "source": "ocr_det",
+        "confidence": 1.0,
+        "o_id": "O018"
+      },
+      {
+        "bbox": [
+          370,
+          1042,
+          402,
+          1069
+        ],
+        "type": "text",
+        "source": "ocr_det",
+        "confidence": 1.0,
+        "o_id": "O019"
+      },
+      {
+        "bbox": [
+          151,
+          1042,
+          182,
+          1071
+        ],
+        "type": "text",
+        "source": "ocr_det",
+        "confidence": 1.0,
+        "o_id": "O020"
+      },
+      {
+        "bbox": [
+          107,
+          1042,
+          138,
+          1069
+        ],
+        "type": "text",
+        "source": "ocr_det",
+        "confidence": 1.0,
+        "o_id": "O021"
+      },
+      {
+        "bbox": [
+          17,
+          1041,
+          50,
+          1073
+        ],
+        "type": "text",
+        "source": "ocr_det",
+        "confidence": 1.0,
+        "o_id": "O022"
+      },
+      {
+        "bbox": [
+          62,
+          1040,
+          95,
+          1072
+        ],
+        "type": "text",
+        "source": "ocr_det",
+        "confidence": 1.0,
+        "o_id": "O023"
+      },
+      {
+        "bbox": [
+          1711,
+          1038,
+          1748,
+          1061
+        ],
+        "type": "text",
+        "source": "ocr_det",
+        "confidence": 1.0,
+        "o_id": "O024"
+      },
+      {
+        "bbox": [
+          1850,
+          1036,
+          1907,
+          1060
+        ],
+        "type": "text",
+        "source": "ocr_det",
+        "confidence": 1.0,
+        "o_id": "O025"
+      },
+      {
+        "bbox": [
+          7,
+          1012,
+          74,
+          1035
+        ],
+        "type": "text",
+        "source": "ocr_det",
+        "confidence": 1.0,
+        "o_id": "O026"
+      },
+      {
+        "bbox": [
+          1873,
+          1010,
+          1917,
+          1035
+        ],
+        "type": "text",
+        "source": "ocr_det",
+        "confidence": 1.0,
+        "o_id": "O027"
+      },
+      {
+        "bbox": [
+          1709,
+          1010,
+          1733,
+          1034
+        ],
+        "type": "text",
+        "source": "ocr_det",
+        "confidence": 1.0,
+        "o_id": "O028"
+      },
+      {
+        "bbox": [
+          1628,
+          1010,
+          1652,
+          1031
+        ],
+        "type": "text",
+        "source": "ocr_det",
+        "confidence": 1.0,
+        "o_id": "O029"
+      },
+      {
+        "bbox": [
+          1556,
+          1010,
+          1613,
+          1034
+        ],
+        "type": "text",
+        "source": "ocr_det",
+        "confidence": 1.0,
+        "o_id": "O030"
+      },
+      {
+        "bbox": [
+          235,
+          1010,
+          389,
+          1035
+        ],
+        "type": "text",
+        "source": "ocr_det",
+        "confidence": 1.0,
+        "o_id": "O031"
+      },
+      {
+        "bbox": [
+          82,
+          1010,
+          135,
+          1034
+        ],
+        "type": "text",
+        "source": "ocr_det",
+        "confidence": 1.0,
+        "o_id": "O032"
+      },
+      {
+        "bbox": [
+          143,
+          1009,
+          227,
+          1034
+        ],
+        "type": "text",
+        "source": "ocr_det",
+        "confidence": 1.0,
+        "o_id": "O033"
+      },
+      {
+        "bbox": [
+          1781,
+          157,
+          1877,
+          181
+        ],
+        "type": "text",
+        "source": "ocr_det",
+        "confidence": 1.0,
+        "o_id": "O034"
+      },
+      {
+        "bbox": [
+          1708,
+          157,
+          1779,
+          181
+        ],
+        "type": "text",
+        "source": "ocr_det",
+        "confidence": 1.0,
+        "o_id": "O035"
+      },
+      {
+        "bbox": [
+          1651,
+          157,
+          1703,
+          181
+        ],
+        "type": "text",
+        "source": "ocr_det",
+        "confidence": 1.0,
+        "o_id": "O036"
+      },
+      {
+        "bbox": [
+          1573,
+          157,
+          1622,
+          182
+        ],
+        "type": "text",
+        "source": "ocr_det",
+        "confidence": 1.0,
+        "o_id": "O037"
+      },
+      {
+        "bbox": [
+          1531,
+          157,
+          1553,
+          179
+        ],
+        "type": "text",
+        "source": "ocr_det",
+        "confidence": 1.0,
+        "o_id": "O038"
+      },
+      {
+        "bbox": [
+          1120,
+          157,
+          1163,
+          182
+        ],
+        "type": "text",
+        "source": "ocr_det",
+        "confidence": 1.0,
+        "o_id": "O039"
+      },
+      {
+        "bbox": [
+          727,
+          157,
+          750,
+          179
+        ],
+        "type": "text",
+        "source": "ocr_det",
+        "confidence": 1.0,
+        "o_id": "O040"
+      },
+      {
+        "bbox": [
+          581,
+          157,
+          645,
+          182
+        ],
+        "type": "text",
+        "source": "ocr_det",
+        "confidence": 1.0,
+        "o_id": "O041"
+      },
+      {
+        "bbox": [
+          313,
+          157,
+          350,
+          181
+        ],
+        "type": "text",
+        "source": "ocr_det",
+        "confidence": 1.0,
+        "o_id": "O042"
+      },
+      {
+        "bbox": [
+          166,
+          157,
+          185,
+          179
+        ],
+        "type": "text",
+        "source": "ocr_det",
+        "confidence": 1.0,
+        "o_id": "O043"
+      },
+      {
+        "bbox": [
+          59,
+          157,
+          122,
+          182
+        ],
+        "type": "text",
+        "source": "ocr_det",
+        "confidence": 1.0,
+        "o_id": "O044"
+      },
+      {
+        "bbox": [
+          1885,
+          156,
+          1910,
+          176
+        ],
+        "type": "text",
+        "source": "ocr_det",
+        "confidence": 1.0,
+        "o_id": "O045"
+      },
+      {
+        "bbox": [
+          31,
+          136,
+          50,
+          155
+        ],
+        "type": "text",
+        "source": "ocr_det",
+        "confidence": 1.0,
+        "o_id": "O046"
+      },
+      {
+        "bbox": [
+          1556,
+          134,
+          1628,
+          161
+        ],
+        "type": "text",
+        "source": "ocr_det",
+        "confidence": 1.0,
+        "o_id": "O047"
+      },
+      {
+        "bbox": [
+          64,
+          134,
+          173,
+          161
+        ],
+        "type": "text",
+        "source": "ocr_det",
+        "confidence": 1.0,
+        "o_id": "O048"
+      },
+      {
+        "bbox": [
+          1799,
+          133,
+          1860,
+          158
+        ],
+        "type": "text",
+        "source": "ocr_det",
+        "confidence": 1.0,
+        "o_id": "O049"
+      },
+      {
+        "bbox": [
+          313,
+          125,
+          338,
+          146
+        ],
+        "type": "text",
+        "source": "ocr_det",
+        "confidence": 1.0,
+        "o_id": "O050"
+      },
+      {
+        "bbox": [
+          220,
+          125,
+          240,
+          143
+        ],
+        "type": "text",
+        "source": "ocr_det",
+        "confidence": 1.0,
+        "o_id": "O051"
+      },
+      {
+        "bbox": [
+          194,
+          125,
+          213,
+          143
+        ],
+        "type": "text",
+        "source": "ocr_det",
+        "confidence": 1.0,
+        "o_id": "O052"
+      },
+      {
+        "bbox": [
+          365,
+          123,
+          392,
+          146
+        ],
+        "type": "text",
+        "source": "ocr_det",
+        "confidence": 1.0,
+        "o_id": "O053"
+      },
+      {
+        "bbox": [
+          284,
+          123,
+          312,
+          146
+        ],
+        "type": "text",
+        "source": "ocr_det",
+        "confidence": 1.0,
+        "o_id": "O054"
+      },
+      {
+        "bbox": [
+          244,
+          123,
+          266,
+          146
+        ],
+        "type": "text",
+        "source": "ocr_det",
+        "confidence": 1.0,
+        "o_id": "O055"
+      },
+      {
+        "bbox": [
+          502,
+          122,
+          734,
+          149
+        ],
+        "type": "text",
+        "source": "ocr_det",
+        "confidence": 1.0,
+        "o_id": "O056"
+      },
+      {
+        "bbox": [
+          451,
+          122,
+          470,
+          143
+        ],
+        "type": "text",
+        "source": "ocr_det",
+        "confidence": 1.0,
+        "o_id": "O057"
+      },
+      {
+        "bbox": [
+          22,
+          117,
+          62,
+          143
+        ],
+        "type": "text",
+        "source": "ocr_det",
+        "confidence": 1.0,
+        "o_id": "O058"
+      },
+      {
+        "bbox": [
+          1792,
+          116,
+          1868,
+          141
+        ],
+        "type": "text",
+        "source": "ocr_det",
+        "confidence": 1.0,
+        "o_id": "O059"
+      },
+      {
+        "bbox": [
+          1712,
+          116,
+          1775,
+          143
+        ],
+        "type": "text",
+        "source": "ocr_det",
+        "confidence": 1.0,
+        "o_id": "O060"
+      },
+      {
+        "bbox": [
+          1649,
+          116,
+          1704,
+          143
+        ],
+        "type": "text",
+        "source": "ocr_det",
+        "confidence": 1.0,
+        "o_id": "O061"
+      },
+      {
+        "bbox": [
+          1556,
+          108,
+          1628,
+          135
+        ],
+        "type": "text",
+        "source": "ocr_det",
+        "confidence": 1.0,
+        "o_id": "O062"
+      },
+      {
+        "bbox": [
+          1516,
+          108,
+          1536,
+          130
+        ],
+        "type": "text",
+        "source": "ocr_det",
+        "confidence": 1.0,
+        "o_id": "O063"
+      },
+      {
+        "bbox": [
+          1313,
+          108,
+          1382,
+          133
+        ],
+        "type": "text",
+        "source": "ocr_det",
+        "confidence": 1.0,
+        "o_id": "O064"
+      },
+      {
+        "bbox": [
+          1087,
+          108,
+          1181,
+          135
+        ],
+        "type": "text",
+        "source": "ocr_det",
+        "confidence": 1.0,
+        "o_id": "O065"
+      },
+      {
+        "bbox": [
+          979,
+          107,
+          1073,
+          141
+        ],
+        "type": "text",
+        "source": "ocr_det",
+        "confidence": 1.0,
+        "o_id": "O066"
+      },
+      {
+        "bbox": [
+          877,
+          108,
+          960,
+          135
+        ],
+        "type": "text",
+        "source": "ocr_det",
+        "confidence": 1.0,
+        "o_id": "O067"
+      },
+      {
+        "bbox": [
+          781,
+          108,
+          840,
+          133
+        ],
+        "type": "text",
+        "source": "ocr_det",
+        "confidence": 1.0,
+        "o_id": "O068"
+      },
+      {
+        "bbox": [
+          62,
+          108,
+          120,
+          135
+        ],
+        "type": "text",
+        "source": "ocr_det",
+        "confidence": 1.0,
+        "o_id": "O069"
+      },
+      {
+        "bbox": [
+          1408,
+          106,
+          1511,
+          133
+        ],
+        "type": "text",
+        "source": "ocr_det",
+        "confidence": 1.0,
+        "o_id": "O070"
+      },
+      {
+        "bbox": [
+          1213,
+          101,
+          1280,
+          140
+        ],
+        "type": "text",
+        "source": "ocr_det",
+        "confidence": 1.0,
+        "o_id": "O071"
+      },
+      {
+        "bbox": [
+          391,
+          91,
+          458,
+          115
+        ],
+        "type": "text",
+        "source": "ocr_det",
+        "confidence": 1.0,
+        "o_id": "O072"
+      },
+      {
+        "bbox": [
+          1814,
+          90,
+          1845,
+          116
+        ],
+        "type": "text",
+        "source": "ocr_det",
+        "confidence": 1.0,
+        "o_id": "O073"
+      },
+      {
+        "bbox": [
+          1726,
+          90,
+          1760,
+          118
+        ],
+        "type": "text",
+        "source": "ocr_det",
+        "confidence": 1.0,
+        "o_id": "O074"
+      },
+      {
+        "bbox": [
+          502,
+          90,
+          735,
+          115
+        ],
+        "type": "text",
+        "source": "ocr_det",
+        "confidence": 1.0,
+        "o_id": "O075"
+      },
+      {
+        "bbox": [
+          461,
+          90,
+          485,
+          115
+        ],
+        "type": "text",
+        "source": "ocr_det",
+        "confidence": 1.0,
+        "o_id": "O076"
+      },
+      {
+        "bbox": [
+          344,
+          90,
+          393,
+          113
+        ],
+        "type": "text",
+        "source": "ocr_det",
+        "confidence": 1.0,
+        "o_id": "O077"
+      },
+      {
+        "bbox": [
+          301,
+          90,
+          342,
+          115
+        ],
+        "type": "text",
+        "source": "ocr_det",
+        "confidence": 1.0,
+        "o_id": "O078"
+      },
+      {
+        "bbox": [
+          188,
+          90,
+          272,
+          116
+        ],
+        "type": "text",
+        "source": "ocr_det",
+        "confidence": 1.0,
+        "o_id": "O079"
+      },
+      {
+        "bbox": [
+          1615,
+          87,
+          1634,
+          106
+        ],
+        "type": "text",
+        "source": "ocr_det",
+        "confidence": 1.0,
+        "o_id": "O080"
+      },
+      {
+        "bbox": [
+          26,
+          86,
+          62,
+          121
+        ],
+        "type": "text",
+        "source": "ocr_det",
+        "confidence": 1.0,
+        "o_id": "O081"
+      },
+      {
+        "bbox": [
+          1660,
+          84,
+          1692,
+          119
+        ],
+        "type": "text",
+        "source": "ocr_det",
+        "confidence": 1.0,
+        "o_id": "O082"
+      },
+      {
+        "bbox": [
+          65,
+          83,
+          113,
+          109
+        ],
+        "type": "text",
+        "source": "ocr_det",
+        "confidence": 1.0,
+        "o_id": "O083"
+      },
+      {
+        "bbox": [
+          1558,
+          82,
+          1611,
+          107
+        ],
+        "type": "text",
+        "source": "ocr_det",
+        "confidence": 1.0,
+        "o_id": "O084"
+      },
+      {
+        "bbox": [
+          548,
+          53,
+          641,
+          78
+        ],
+        "type": "text",
+        "source": "ocr_det",
+        "confidence": 1.0,
+        "o_id": "O085"
+      },
+      {
+        "bbox": [
+          496,
+          53,
+          549,
+          77
+        ],
+        "type": "text",
+        "source": "ocr_det",
+        "confidence": 1.0,
+        "o_id": "O086"
+      },
+      {
+        "bbox": [
+          343,
+          53,
+          416,
+          77
+        ],
+        "type": "text",
+        "source": "ocr_det",
+        "confidence": 1.0,
+        "o_id": "O087"
+      },
+      {
+        "bbox": [
+          284,
+          53,
+          333,
+          78
+        ],
+        "type": "text",
+        "source": "ocr_det",
+        "confidence": 1.0,
+        "o_id": "O088"
+      },
+      {
+        "bbox": [
+          170,
+          53,
+          213,
+          77
+        ],
+        "type": "text",
+        "source": "ocr_det",
+        "confidence": 1.0,
+        "o_id": "O089"
+      },
+      {
+        "bbox": [
+          118,
+          53,
+          164,
+          77
+        ],
+        "type": "text",
+        "source": "ocr_det",
+        "confidence": 1.0,
+        "o_id": "O090"
+      },
+      {
+        "bbox": [
+          62,
+          53,
+          110,
+          78
+        ],
+        "type": "text",
+        "source": "ocr_det",
+        "confidence": 1.0,
+        "o_id": "O091"
+      },
+      {
+        "bbox": [
+          1837,
+          51,
+          1908,
+          77
+        ],
+        "type": "text",
+        "source": "ocr_det",
+        "confidence": 1.0,
+        "o_id": "O092"
+      },
+      {
+        "bbox": [
+          427,
+          51,
+          486,
+          78
+        ],
+        "type": "text",
+        "source": "ocr_det",
+        "confidence": 1.0,
+        "o_id": "O093"
+      },
+      {
+        "bbox": [
+          221,
+          51,
+          273,
+          78
+        ],
+        "type": "text",
+        "source": "ocr_det",
+        "confidence": 1.0,
+        "o_id": "O094"
+      },
+      {
+        "bbox": [
+          16,
+          51,
+          48,
+          77
+        ],
+        "type": "text",
+        "source": "ocr_det",
+        "confidence": 1.0,
+        "o_id": "O095"
+      },
+      {
+        "bbox": [
+          1747,
+          50,
+          1830,
+          78
+        ],
+        "type": "text",
+        "source": "ocr_det",
+        "confidence": 1.0,
+        "o_id": "O096"
+      },
+      {
+        "bbox": [
+          1646,
+          50,
+          1739,
+          77
+        ],
+        "type": "text",
+        "source": "ocr_det",
+        "confidence": 1.0,
+        "o_id": "O097"
+      },
+      {
+        "bbox": [
+          1886,
+          14,
+          1905,
+          32
+        ],
+        "type": "text",
+        "source": "ocr_det",
+        "confidence": 1.0,
+        "o_id": "O098"
+      },
+      {
+        "bbox": [
+          1837,
+          13,
+          1860,
+          37
+        ],
+        "type": "text",
+        "source": "ocr_det",
+        "confidence": 1.0,
+        "o_id": "O099"
+      },
+      {
+        "bbox": [
+          818,
+          13,
+          873,
+          38
+        ],
+        "type": "text",
+        "source": "ocr_det",
+        "confidence": 1.0,
+        "o_id": "O100"
+      },
+      {
+        "bbox": [
+          289,
+          13,
+          410,
+          38
+        ],
+        "type": "text",
+        "source": "ocr_det",
+        "confidence": 1.0,
+        "o_id": "O101"
+      },
+      {
+        "bbox": [
+          256,
+          13,
+          276,
+          35
+        ],
+        "type": "text",
+        "source": "ocr_det",
+        "confidence": 1.0,
+        "o_id": "O102"
+      },
+      {
+        "bbox": [
+          796,
+          11,
+          825,
+          34
+        ],
+        "type": "text",
+        "source": "ocr_det",
+        "confidence": 1.0,
+        "o_id": "O103"
+      },
+      {
+        "bbox": [
+          155,
+          11,
+          185,
+          37
+        ],
+        "type": "text",
+        "source": "ocr_det",
+        "confidence": 1.0,
+        "o_id": "O104"
+      },
+      {
+        "bbox": [
+          103,
+          11,
+          152,
+          37
+        ],
+        "type": "text",
+        "source": "ocr_det",
+        "confidence": 1.0,
+        "o_id": "O105"
+      },
+      {
+        "bbox": [
+          43,
+          11,
+          101,
+          37
+        ],
+        "type": "text",
+        "source": "ocr_det",
+        "confidence": 1.0,
+        "o_id": "O106"
+      },
+      {
+        "bbox": [
+          14,
+          11,
+          36,
+          35
+        ],
+        "type": "text",
+        "source": "ocr_det",
+        "confidence": 1.0,
+        "o_id": "O107"
+      },
+      {
+        "bbox": [
+          223,
+          10,
+          254,
+          37
+        ],
+        "type": "text",
+        "source": "ocr_det",
+        "confidence": 1.0,
+        "o_id": "O108"
+      },
+      {
+        "bbox": [
+          185,
+          10,
+          225,
+          35
+        ],
+        "type": "text",
+        "source": "ocr_det",
+        "confidence": 1.0,
+        "o_id": "O109"
+      }
+    ],
+    "merged_detections": [
+      {
+        "bbox": [
+          752,
+          88,
+          867,
+          151
+        ],
+        "type": "icon",
+        "source": "yolo",
+        "confidence": 1.0,
+        "id": 0,
+        "y_id": "Y001",
+        "merged_id": 0,
+        "m_id": "M001"
+      },
+      {
+        "bbox": [
+          1082,
+          92,
+          1186,
+          145
+        ],
+        "type": "icon",
+        "source": "yolo",
+        "confidence": 1.0,
+        "id": 1,
+        "y_id": "Y002",
+        "merged_id": 1,
+        "m_id": "M002"
+      },
+      {
+        "bbox": [
+          1189,
+          93,
+          1295,
+          145
+        ],
+        "type": "icon",
+        "source": "yolo",
+        "confidence": 1.0,
+        "id": 2,
+        "y_id": "Y003",
+        "merged_id": 2,
+        "m_id": "M003"
+      },
+      {
+        "bbox": [
+          975,
+          92,
+          1079,
+          145
+        ],
+        "type": "icon",
+        "source": "yolo",
+        "confidence": 1.0,
+        "id": 3,
+        "y_id": "Y004",
+        "merged_id": 3,
+        "m_id": "M004"
+      },
+      {
+        "bbox": [
+          1298,
+          93,
+          1403,
+          145
+        ],
+        "type": "icon",
+        "source": "yolo",
+        "confidence": 1.0,
+        "id": 4,
+        "y_id": "Y005",
+        "merged_id": 4,
+        "m_id": "M005"
+      },
+      {
+        "bbox": [
+          864,
+          89,
+          971,
+          149
+        ],
+        "type": "icon",
+        "source": "yolo",
+        "confidence": 1.0,
+        "id": 5,
+        "y_id": "Y006",
+        "merged_id": 5,
+        "m_id": "M006"
+      },
+      {
+        "bbox": [
+          1645,
+          79,
+          1707,
+          176
+        ],
+        "type": "icon",
+        "source": "yolo",
+        "confidence": 1.0,
+        "id": 6,
+        "y_id": "Y007",
+        "merged_id": 6,
+        "m_id": "M007"
+      },
+      {
+        "bbox": [
+          189,
+          87,
+          316,
+          115
+        ],
+        "type": "icon",
+        "source": "yolo",
+        "confidence": 1.0,
+        "id": 7,
+        "y_id": "Y008",
+        "merged_id": 7,
+        "m_id": "M008"
+      },
+      {
+        "bbox": [
+          316,
+          88,
+          362,
+          115
+        ],
+        "type": "icon",
+        "source": "yolo",
+        "confidence": 1.0,
+        "id": 8,
+        "y_id": "Y009",
+        "merged_id": 8,
+        "m_id": "M009"
+      },
+      {
+        "bbox": [
+          1707,
+          79,
+          1776,
+          175
+        ],
+        "type": "icon",
+        "source": "yolo",
+        "confidence": 1.0,
+        "id": 9,
+        "y_id": "Y010",
+        "merged_id": 9,
+        "m_id": "M010"
+      },
+      {
+        "bbox": [
+          1646,
+          50,
+          1739,
+          77
+        ],
+        "type": "text",
+        "source": "ocr_det",
+        "confidence": 1.0,
+        "id": 96,
+        "o_id": "O097",
+        "merged_id": 10,
+        "m_id": "M011"
+      },
+      {
+        "bbox": [
+          1837,
+          51,
+          1908,
+          77
+        ],
+        "type": "text",
+        "source": "ocr_det",
+        "confidence": 1.0,
+        "id": 91,
+        "o_id": "O092",
+        "merged_id": 11,
+        "m_id": "M012"
+      },
+      {
+        "bbox": [
+          1747,
+          50,
+          1830,
+          78
+        ],
+        "type": "text",
+        "source": "ocr_det",
+        "confidence": 1.0,
+        "id": 95,
+        "o_id": "O096",
+        "merged_id": 12,
+        "m_id": "M013"
+      },
+      {
+        "bbox": [
+          502,
+          122,
+          734,
+          149
+        ],
+        "type": "text",
+        "source": "ocr_det",
+        "confidence": 1.0,
+        "id": 55,
+        "o_id": "O056",
+        "merged_id": 13,
+        "m_id": "M014"
+      },
+      {
+        "bbox": [
+          364,
+          120,
+          400,
+          145
+        ],
+        "type": "icon",
+        "source": "yolo",
+        "confidence": 1.0,
+        "id": 15,
+        "y_id": "Y016",
+        "merged_id": 14,
+        "m_id": "M015"
+      },
+      {
+        "bbox": [
+          64,
+          134,
+          173,
+          161
+        ],
+        "type": "text",
+        "source": "ocr_det",
+        "confidence": 1.0,
+        "id": 47,
+        "o_id": "O048",
+        "merged_id": 15,
+        "m_id": "M016"
+      },
+      {
+        "bbox": [
+          1556,
+          134,
+          1628,
+          161
+        ],
+        "type": "text",
+        "source": "ocr_det",
+        "confidence": 1.0,
+        "id": 46,
+        "o_id": "O047",
+        "merged_id": 16,
+        "m_id": "M017"
+      },
+      {
+        "bbox": [
+          344,
+          90,
+          393,
+          113
+        ],
+        "type": "text",
+        "source": "ocr_det",
+        "confidence": 1.0,
+        "id": 76,
+        "o_id": "O077",
+        "merged_id": 17,
+        "m_id": "M018"
+      },
+      {
+        "bbox": [
+          653,
+          121,
+          690,
+          145
+        ],
+        "type": "icon",
+        "source": "yolo",
+        "confidence": 1.0,
+        "id": 19,
+        "y_id": "Y020",
+        "merged_id": 18,
+        "m_id": "M019"
+      },
+      {
+        "bbox": [
+          56,
+          1033,
+          97,
+          1079
+        ],
+        "type": "icon",
+        "source": "yolo",
+        "confidence": 1.0,
+        "id": 20,
+        "y_id": "Y021",
+        "merged_id": 19,
+        "m_id": "M020"
+      },
+      {
+        "bbox": [
+          502,
+          90,
+          735,
+          115
+        ],
+        "type": "text",
+        "source": "ocr_det",
+        "confidence": 1.0,
+        "id": 74,
+        "o_id": "O075",
+        "merged_id": 20,
+        "m_id": "M021"
+      },
+      {
+        "bbox": [
+          284,
+          123,
+          312,
+          146
+        ],
+        "type": "text",
+        "source": "ocr_det",
+        "confidence": 1.0,
+        "id": 53,
+        "o_id": "O054",
+        "merged_id": 21,
+        "m_id": "M022"
+      },
+      {
+        "bbox": [
+          405,
+          119,
+          443,
+          145
+        ],
+        "type": "icon",
+        "source": "yolo",
+        "confidence": 1.0,
+        "id": 23,
+        "y_id": "Y024",
+        "merged_id": 22,
+        "m_id": "M023"
+      },
+      {
+        "bbox": [
+          244,
+          122,
+          280,
+          143
+        ],
+        "type": "icon",
+        "source": "yolo",
+        "confidence": 1.0,
+        "id": 24,
+        "y_id": "Y025",
+        "merged_id": 23,
+        "m_id": "M024"
+      },
+      {
+        "bbox": [
+          447,
+          120,
+          485,
+          145
+        ],
+        "type": "icon",
+        "source": "yolo",
+        "confidence": 1.0,
+        "id": 25,
+        "y_id": "Y026",
+        "merged_id": 24,
+        "m_id": "M025"
+      },
+      {
+        "bbox": [
+          673,
+          1036,
+          713,
+          1078
+        ],
+        "type": "icon",
+        "source": "yolo",
+        "confidence": 1.0,
+        "id": 26,
+        "y_id": "Y027",
+        "merged_id": 25,
+        "m_id": "M026"
+      },
+      {
+        "bbox": [
+          501,
+          90,
+          539,
+          112
+        ],
+        "type": "icon",
+        "source": "yolo",
+        "confidence": 1.0,
+        "id": 27,
+        "y_id": "Y028",
+        "merged_id": 26,
+        "m_id": "M027"
+      },
+      {
+        "bbox": [
+          697,
+          122,
+          736,
+          143
+        ],
+        "type": "icon",
+        "source": "yolo",
+        "confidence": 1.0,
+        "id": 28,
+        "y_id": "Y029",
+        "merged_id": 27,
+        "m_id": "M028"
+      },
+      {
+        "bbox": [
+          758,
+          1036,
+          804,
+          1080
+        ],
+        "type": "icon",
+        "source": "yolo",
+        "confidence": 1.0,
+        "id": 29,
+        "y_id": "Y030",
+        "merged_id": 28,
+        "m_id": "M029"
+      },
+      {
+        "bbox": [
+          231,
+          1034,
+          272,
+          1078
+        ],
+        "type": "icon",
+        "source": "yolo",
+        "confidence": 1.0,
+        "id": 30,
+        "y_id": "Y031",
+        "merged_id": 29,
+        "m_id": "M030"
+      },
+      {
+        "bbox": [
+          630,
+          1036,
+          672,
+          1079
+        ],
+        "type": "icon",
+        "source": "yolo",
+        "confidence": 1.0,
+        "id": 31,
+        "y_id": "Y032",
+        "merged_id": 30,
+        "m_id": "M031"
+      },
+      {
+        "bbox": [
+          1512,
+          88,
+          1540,
+          151
+        ],
+        "type": "icon",
+        "source": "yolo",
+        "confidence": 1.0,
+        "id": 32,
+        "y_id": "Y033",
+        "merged_id": 31,
+        "m_id": "M032"
+      },
+      {
+        "bbox": [
+          188,
+          1034,
+          228,
+          1079
+        ],
+        "type": "icon",
+        "source": "yolo",
+        "confidence": 1.0,
+        "id": 33,
+        "y_id": "Y034",
+        "merged_id": 32,
+        "m_id": "M033"
+      },
+      {
+        "bbox": [
+          313,
+          125,
+          338,
+          146
+        ],
+        "type": "text",
+        "source": "ocr_det",
+        "confidence": 1.0,
+        "id": 49,
+        "o_id": "O050",
+        "merged_id": 33,
+        "m_id": "M034"
+      },
+      {
+        "bbox": [
+          391,
+          91,
+          458,
+          115
+        ],
+        "type": "text",
+        "source": "ocr_det",
+        "confidence": 1.0,
+        "id": 71,
+        "o_id": "O072",
+        "merged_id": 34,
+        "m_id": "M035"
+      },
+      {
+        "bbox": [
+          392,
+          91,
+          410,
+          112
+        ],
+        "type": "icon",
+        "source": "yolo",
+        "confidence": 1.0,
+        "id": 36,
+        "y_id": "Y037",
+        "merged_id": 35,
+        "m_id": "M036"
+      },
+      {
+        "bbox": [
+          686,
+          92,
+          707,
+          113
+        ],
+        "type": "icon",
+        "source": "yolo",
+        "confidence": 1.0,
+        "id": 37,
+        "y_id": "Y038",
+        "merged_id": 36,
+        "m_id": "M037"
+      },
+      {
+        "bbox": [
+          461,
+          90,
+          485,
+          115
+        ],
+        "type": "text",
+        "source": "ocr_det",
+        "confidence": 1.0,
+        "id": 75,
+        "o_id": "O076",
+        "merged_id": 37,
+        "m_id": "M038"
+      },
+      {
+        "bbox": [
+          498,
+          119,
+          529,
+          149
+        ],
+        "type": "icon",
+        "source": "yolo",
+        "confidence": 1.0,
+        "id": 39,
+        "y_id": "Y040",
+        "merged_id": 38,
+        "m_id": "M039"
+      },
+      {
+        "bbox": [
+          583,
+          1036,
+          628,
+          1079
+        ],
+        "type": "icon",
+        "source": "yolo",
+        "confidence": 1.0,
+        "id": 40,
+        "y_id": "Y041",
+        "merged_id": 39,
+        "m_id": "M040"
+      },
+      {
+        "bbox": [
+          339,
+          123,
+          358,
+          144
+        ],
+        "type": "icon",
+        "source": "yolo",
+        "confidence": 1.0,
+        "id": 41,
+        "y_id": "Y042",
+        "merged_id": 40,
+        "m_id": "M041"
+      },
+      {
+        "bbox": [
+          103,
+          11,
+          152,
+          37
+        ],
+        "type": "text",
+        "source": "ocr_det",
+        "confidence": 1.0,
+        "id": 104,
+        "o_id": "O105",
+        "merged_id": 41,
+        "m_id": "M042"
+      },
+      {
+        "bbox": [
+          101,
+          1033,
+          143,
+          1078
+        ],
+        "type": "icon",
+        "source": "yolo",
+        "confidence": 1.0,
+        "id": 43,
+        "y_id": "Y044",
+        "merged_id": 42,
+        "m_id": "M043"
+      },
+      {
+        "bbox": [
+          717,
+          1035,
+          758,
+          1078
+        ],
+        "type": "icon",
+        "source": "yolo",
+        "confidence": 1.0,
+        "id": 44,
+        "y_id": "Y045",
+        "merged_id": 43,
+        "m_id": "M044"
+      },
+      {
+        "bbox": [
+          542,
+          90,
+          579,
+          112
+        ],
+        "type": "icon",
+        "source": "yolo",
+        "confidence": 1.0,
+        "id": 45,
+        "y_id": "Y046",
+        "merged_id": 44,
+        "m_id": "M045"
+      },
+      {
+        "bbox": [
+          1406,
+          90,
+          1512,
+          151
+        ],
+        "type": "icon",
+        "source": "yolo",
+        "confidence": 1.0,
+        "id": 46,
+        "y_id": "Y047",
+        "merged_id": 45,
+        "m_id": "M046"
+      },
+      {
+        "bbox": [
+          277,
+          1034,
+          319,
+          1078
+        ],
+        "type": "icon",
+        "source": "yolo",
+        "confidence": 1.0,
+        "id": 47,
+        "y_id": "Y048",
+        "merged_id": 46,
+        "m_id": "M047"
+      },
+      {
+        "bbox": [
+          935,
+          1035,
+          978,
+          1079
+        ],
+        "type": "icon",
+        "source": "yolo",
+        "confidence": 1.0,
+        "id": 48,
+        "y_id": "Y049",
+        "merged_id": 47,
+        "m_id": "M048"
+      },
+      {
+        "bbox": [
+          581,
+          121,
+          605,
+          146
+        ],
+        "type": "icon",
+        "source": "yolo",
+        "confidence": 1.0,
+        "id": 49,
+        "y_id": "Y050",
+        "merged_id": 48,
+        "m_id": "M049"
+      },
+      {
+        "bbox": [
+          629,
+          92,
+          653,
+          112
+        ],
+        "type": "icon",
+        "source": "yolo",
+        "confidence": 1.0,
+        "id": 50,
+        "y_id": "Y051",
+        "merged_id": 49,
+        "m_id": "M050"
+      },
+      {
+        "bbox": [
+          539,
+          1035,
+          579,
+          1079
+        ],
+        "type": "icon",
+        "source": "yolo",
+        "confidence": 1.0,
+        "id": 51,
+        "y_id": "Y052",
+        "merged_id": 50,
+        "m_id": "M051"
+      },
+      {
+        "bbox": [
+          805,
+          1036,
+          843,
+          1079
+        ],
+        "type": "icon",
+        "source": "yolo",
+        "confidence": 1.0,
+        "id": 52,
+        "y_id": "Y053",
+        "merged_id": 51,
+        "m_id": "M052"
+      },
+      {
+        "bbox": [
+          144,
+          1033,
+          186,
+          1079
+        ],
+        "type": "icon",
+        "source": "yolo",
+        "confidence": 1.0,
+        "id": 53,
+        "y_id": "Y054",
+        "merged_id": 52,
+        "m_id": "M053"
+      },
+      {
+        "bbox": [
+          191,
+          121,
+          214,
+          144
+        ],
+        "type": "icon",
+        "source": "yolo",
+        "confidence": 1.0,
+        "id": 54,
+        "y_id": "Y055",
+        "merged_id": 53,
+        "m_id": "M054"
+      },
+      {
+        "bbox": [
+          716,
+          91,
+          736,
+          113
+        ],
+        "type": "icon",
+        "source": "yolo",
+        "confidence": 1.0,
+        "id": 55,
+        "y_id": "Y056",
+        "merged_id": 54,
+        "m_id": "M055"
+      },
+      {
+        "bbox": [
+          7,
+          3,
+          41,
+          43
+        ],
+        "type": "icon",
+        "source": "yolo",
+        "confidence": 1.0,
+        "id": 56,
+        "y_id": "Y057",
+        "merged_id": 55,
+        "m_id": "M056"
+      },
+      {
+        "bbox": [
+          893,
+          1035,
+          934,
+          1079
+        ],
+        "type": "icon",
+        "source": "yolo",
+        "confidence": 1.0,
+        "id": 57,
+        "y_id": "Y058",
+        "merged_id": 56,
+        "m_id": "M057"
+      },
+      {
+        "bbox": [
+          1556,
+          1010,
+          1613,
+          1034
+        ],
+        "type": "text",
+        "source": "ocr_det",
+        "confidence": 1.0,
+        "id": 29,
+        "o_id": "O030",
+        "merged_id": 57,
+        "m_id": "M058"
+      },
+      {
+        "bbox": [
+          186,
+          3,
+          221,
+          40
+        ],
+        "type": "icon",
+        "source": "yolo",
+        "confidence": 1.0,
+        "id": 59,
+        "y_id": "Y060",
+        "merged_id": 58,
+        "m_id": "M059"
+      },
+      {
+        "bbox": [
+          656,
+          91,
+          680,
+          112
+        ],
+        "type": "icon",
+        "source": "yolo",
+        "confidence": 1.0,
+        "id": 60,
+        "y_id": "Y061",
+        "merged_id": 59,
+        "m_id": "M060"
+      },
+      {
+        "bbox": [
+          555,
+          121,
+          578,
+          147
+        ],
+        "type": "icon",
+        "source": "yolo",
+        "confidence": 1.0,
+        "id": 61,
+        "y_id": "Y062",
+        "merged_id": 60,
+        "m_id": "M061"
+      },
+      {
+        "bbox": [
+          364,
+          1034,
+          406,
+          1079
+        ],
+        "type": "icon",
+        "source": "yolo",
+        "confidence": 1.0,
+        "id": 62,
+        "y_id": "Y063",
+        "merged_id": 61,
+        "m_id": "M062"
+      },
+      {
+        "bbox": [
+          1556,
+          78,
+          1638,
+          107
+        ],
+        "type": "icon",
+        "source": "yolo",
+        "confidence": 1.0,
+        "id": 63,
+        "y_id": "Y064",
+        "merged_id": 62,
+        "m_id": "M063"
+      },
+      {
+        "bbox": [
+          411,
+          1035,
+          448,
+          1080
+        ],
+        "type": "icon",
+        "source": "yolo",
+        "confidence": 1.0,
+        "id": 64,
+        "y_id": "Y065",
+        "merged_id": 63,
+        "m_id": "M064"
+      },
+      {
+        "bbox": [
+          498,
+          1035,
+          535,
+          1079
+        ],
+        "type": "icon",
+        "source": "yolo",
+        "confidence": 1.0,
+        "id": 65,
+        "y_id": "Y066",
+        "merged_id": 64,
+        "m_id": "M065"
+      },
+      {
+        "bbox": [
+          321,
+          1034,
+          360,
+          1079
+        ],
+        "type": "icon",
+        "source": "yolo",
+        "confidence": 1.0,
+        "id": 66,
+        "y_id": "Y067",
+        "merged_id": 65,
+        "m_id": "M066"
+      },
+      {
+        "bbox": [
+          848,
+          1036,
+          889,
+          1079
+        ],
+        "type": "icon",
+        "source": "yolo",
+        "confidence": 1.0,
+        "id": 67,
+        "y_id": "Y068",
+        "merged_id": 66,
+        "m_id": "M067"
+      },
+      {
+        "bbox": [
+          775,
+          5,
+          1157,
+          47
+        ],
+        "type": "icon",
+        "source": "yolo",
+        "confidence": 1.0,
+        "id": 68,
+        "y_id": "Y069",
+        "merged_id": 67,
+        "m_id": "M068"
+      },
+      {
+        "bbox": [
+          155,
+          3,
+          183,
+          39
+        ],
+        "type": "icon",
+        "source": "yolo",
+        "confidence": 1.0,
+        "id": 69,
+        "y_id": "Y070",
+        "merged_id": 68,
+        "m_id": "M069"
+      },
+      {
+        "bbox": [
+          218,
+          122,
+          239,
+          143
+        ],
+        "type": "icon",
+        "source": "yolo",
+        "confidence": 1.0,
+        "id": 71,
+        "y_id": "Y072",
+        "merged_id": 69,
+        "m_id": "M070"
+      },
+      {
+        "bbox": [
+          10,
+          1032,
+          53,
+          1078
+        ],
+        "type": "icon",
+        "source": "yolo",
+        "confidence": 1.0,
+        "id": 72,
+        "y_id": "Y073",
+        "merged_id": 70,
+        "m_id": "M071"
+      },
+      {
+        "bbox": [
+          1709,
+          1034,
+          1746,
+          1075
+        ],
+        "type": "icon",
+        "source": "yolo",
+        "confidence": 1.0,
+        "id": 73,
+        "y_id": "Y074",
+        "merged_id": 71,
+        "m_id": "M072"
+      },
+      {
+        "bbox": [
+          455,
+          1036,
+          490,
+          1079
+        ],
+        "type": "icon",
+        "source": "yolo",
+        "confidence": 1.0,
+        "id": 74,
+        "y_id": "Y075",
+        "merged_id": 72,
+        "m_id": "M073"
+      },
+      {
+        "bbox": [
+          531,
+          120,
+          551,
+          147
+        ],
+        "type": "icon",
+        "source": "yolo",
+        "confidence": 1.0,
+        "id": 76,
+        "y_id": "Y077",
+        "merged_id": 73,
+        "m_id": "M074"
+      },
+      {
+        "bbox": [
+          793,
+          13,
+          814,
+          36
+        ],
+        "type": "icon",
+        "source": "yolo",
+        "confidence": 1.0,
+        "id": 77,
+        "y_id": "Y078",
+        "merged_id": 74,
+        "m_id": "M075"
+      },
+      {
+        "bbox": [
+          1705,
+          1007,
+          1733,
+          1031
+        ],
+        "type": "icon",
+        "source": "yolo",
+        "confidence": 1.0,
+        "id": 78,
+        "y_id": "Y079",
+        "merged_id": 75,
+        "m_id": "M076"
+      },
+      {
+        "bbox": [
+          1780,
+          8,
+          1821,
+          39
+        ],
+        "type": "icon",
+        "source": "yolo",
+        "confidence": 1.0,
+        "id": 79,
+        "y_id": "Y080",
+        "merged_id": 76,
+        "m_id": "M077"
+      },
+      {
+        "bbox": [
+          1664,
+          1006,
+          1698,
+          1031
+        ],
+        "type": "icon",
+        "source": "yolo",
+        "confidence": 1.0,
+        "id": 80,
+        "y_id": "Y081",
+        "merged_id": 77,
+        "m_id": "M078"
+      },
+      {
+        "bbox": [
+          1737,
+          9,
+          1767,
+          40
+        ],
+        "type": "icon",
+        "source": "yolo",
+        "confidence": 1.0,
+        "id": 81,
+        "y_id": "Y082",
+        "merged_id": 78,
+        "m_id": "M079"
+      },
+      {
+        "bbox": [
+          285,
+          7,
+          416,
+          41
+        ],
+        "type": "icon",
+        "source": "yolo",
+        "confidence": 1.0,
+        "id": 82,
+        "y_id": "Y083",
+        "merged_id": 79,
+        "m_id": "M080"
+      },
+      {
+        "bbox": [
+          1877,
+          6,
+          1913,
+          41
+        ],
+        "type": "icon",
+        "source": "yolo",
+        "confidence": 1.0,
+        "id": 83,
+        "y_id": "Y084",
+        "merged_id": 80,
+        "m_id": "M081"
+      },
+      {
+        "bbox": [
+          1880,
+          78,
+          1913,
+          174
+        ],
+        "type": "icon",
+        "source": "yolo",
+        "confidence": 1.0,
+        "id": 84,
+        "y_id": "Y085",
+        "merged_id": 81,
+        "m_id": "M082"
+      },
+      {
+        "bbox": [
+          1752,
+          1040,
+          1777,
+          1074
+        ],
+        "type": "icon",
+        "source": "yolo",
+        "confidence": 1.0,
+        "id": 85,
+        "y_id": "Y086",
+        "merged_id": 82,
+        "m_id": "M083"
+      },
+      {
+        "bbox": [
+          1622,
+          1005,
+          1660,
+          1031
+        ],
+        "type": "icon",
+        "source": "yolo",
+        "confidence": 1.0,
+        "id": 86,
+        "y_id": "Y087",
+        "merged_id": 83,
+        "m_id": "M084"
+      },
+      {
+        "bbox": [
+          1556,
+          108,
+          1628,
+          135
+        ],
+        "type": "text",
+        "source": "ocr_det",
+        "confidence": 1.0,
+        "id": 61,
+        "o_id": "O062",
+        "merged_id": 84,
+        "m_id": "M085"
+      },
+      {
+        "bbox": [
+          1612,
+          1044,
+          1640,
+          1069
+        ],
+        "type": "text",
+        "source": "ocr_det",
+        "confidence": 1.0,
+        "id": 9,
+        "o_id": "O010",
+        "merged_id": 85,
+        "m_id": "M086"
+      },
+      {
+        "bbox": [
+          1580,
+          1044,
+          1610,
+          1071
+        ],
+        "type": "text",
+        "source": "ocr_det",
+        "confidence": 1.0,
+        "id": 10,
+        "o_id": "O011",
+        "merged_id": 86,
+        "m_id": "M087"
+      },
+      {
+        "bbox": [
+          1799,
+          1036,
+          1826,
+          1074
+        ],
+        "type": "icon",
+        "source": "yolo",
+        "confidence": 1.0,
+        "id": 90,
+        "y_id": "Y091",
+        "merged_id": 87,
+        "m_id": "M088"
+      },
+      {
+        "bbox": [
+          65,
+          83,
+          113,
+          109
+        ],
+        "type": "text",
+        "source": "ocr_det",
+        "confidence": 1.0,
+        "id": 82,
+        "o_id": "O083",
+        "merged_id": 88,
+        "m_id": "M089"
+      },
+      {
+        "bbox": [
+          1546,
+          1043,
+          1576,
+          1070
+        ],
+        "type": "icon",
+        "source": "yolo",
+        "confidence": 1.0,
+        "id": 92,
+        "y_id": "Y093",
+        "merged_id": 89,
+        "m_id": "M090"
+      },
+      {
+        "bbox": [
+          1902,
+          991,
+          1920,
+          1012
+        ],
+        "type": "icon",
+        "source": "yolo",
+        "confidence": 1.0,
+        "id": 93,
+        "y_id": "Y094",
+        "merged_id": 90,
+        "m_id": "M091"
+      },
+      {
+        "bbox": [
+          1673,
+          1034,
+          1704,
+          1074
+        ],
+        "type": "icon",
+        "source": "yolo",
+        "confidence": 1.0,
+        "id": 94,
+        "y_id": "Y095",
+        "merged_id": 91,
+        "m_id": "M092"
+      },
+      {
+        "bbox": [
+          247,
+          5,
+          276,
+          40
+        ],
+        "type": "icon",
+        "source": "yolo",
+        "confidence": 1.0,
+        "id": 95,
+        "y_id": "Y096",
+        "merged_id": 92,
+        "m_id": "M093"
+      },
+      {
+        "bbox": [
+          1829,
+          7,
+          1867,
+          39
+        ],
+        "type": "icon",
+        "source": "yolo",
+        "confidence": 1.0,
+        "id": 96,
+        "y_id": "Y097",
+        "merged_id": 93,
+        "m_id": "M094"
+      },
+      {
+        "bbox": [
+          1643,
+          1040,
+          1672,
+          1067
+        ],
+        "type": "icon",
+        "source": "yolo",
+        "confidence": 1.0,
+        "id": 97,
+        "y_id": "Y098",
+        "merged_id": 94,
+        "m_id": "M095"
+      },
+      {
+        "bbox": [
+          1777,
+          1039,
+          1798,
+          1073
+        ],
+        "type": "icon",
+        "source": "yolo",
+        "confidence": 1.0,
+        "id": 98,
+        "y_id": "Y099",
+        "merged_id": 95,
+        "m_id": "M096"
+      },
+      {
+        "bbox": [
+          1741,
+          1009,
+          1756,
+          1031
+        ],
+        "type": "icon",
+        "source": "yolo",
+        "confidence": 1.0,
+        "id": 99,
+        "y_id": "Y100",
+        "merged_id": 96,
+        "m_id": "M097"
+      },
+      {
+        "bbox": [
+          1531,
+          157,
+          1553,
+          179
+        ],
+        "type": "text",
+        "source": "ocr_det",
+        "confidence": 1.0,
+        "id": 37,
+        "o_id": "O038",
+        "merged_id": 97,
+        "m_id": "M098"
+      },
+      {
+        "bbox": [
+          223,
+          10,
+          254,
+          37
+        ],
+        "type": "text",
+        "source": "ocr_det",
+        "confidence": 1.0,
+        "id": 107,
+        "o_id": "O108",
+        "merged_id": 98,
+        "m_id": "M099"
+      },
+      {
+        "bbox": [
+          0,
+          1032,
+          7,
+          1077
+        ],
+        "type": "icon",
+        "source": "yolo",
+        "confidence": 1.0,
+        "id": 102,
+        "y_id": "Y103",
+        "merged_id": 99,
+        "m_id": "M100"
+      },
+      {
+        "bbox": [
+          1804,
+          1009,
+          1815,
+          1032
+        ],
+        "type": "icon",
+        "source": "yolo",
+        "confidence": 1.0,
+        "id": 103,
+        "y_id": "Y104",
+        "merged_id": 100,
+        "m_id": "M101"
+      },
+      {
+        "bbox": [
+          235,
+          1010,
+          389,
+          1035
+        ],
+        "type": "text",
+        "source": "ocr_det",
+        "confidence": 1.0,
+        "id": 30,
+        "o_id": "O031",
+        "merged_id": 101,
+        "m_id": "M102"
+      },
+      {
+        "bbox": [
+          1834,
+          1051,
+          1908,
+          1075
+        ],
+        "type": "text",
+        "source": "ocr_det",
+        "confidence": 1.0,
+        "id": 1,
+        "o_id": "O002",
+        "merged_id": 102,
+        "m_id": "M103"
+      },
+      {
+        "bbox": [
+          1753,
+          1044,
+          1830,
+          1069
+        ],
+        "type": "text",
+        "source": "ocr_det",
+        "confidence": 1.0,
+        "id": 6,
+        "o_id": "O007",
+        "merged_id": 103,
+        "m_id": "M104"
+      },
+      {
+        "bbox": [
+          1850,
+          1036,
+          1907,
+          1060
+        ],
+        "type": "text",
+        "source": "ocr_det",
+        "confidence": 1.0,
+        "id": 24,
+        "o_id": "O025",
+        "merged_id": 104,
+        "m_id": "M105"
+      },
+      {
+        "bbox": [
+          7,
+          1012,
+          74,
+          1035
+        ],
+        "type": "text",
+        "source": "ocr_det",
+        "confidence": 1.0,
+        "id": 25,
+        "o_id": "O026",
+        "merged_id": 105,
+        "m_id": "M106"
+      },
+      {
+        "bbox": [
+          1873,
+          1010,
+          1917,
+          1035
+        ],
+        "type": "text",
+        "source": "ocr_det",
+        "confidence": 1.0,
+        "id": 26,
+        "o_id": "O027",
+        "merged_id": 106,
+        "m_id": "M107"
+      },
+      {
+        "bbox": [
+          82,
+          1010,
+          135,
+          1034
+        ],
+        "type": "text",
+        "source": "ocr_det",
+        "confidence": 1.0,
+        "id": 31,
+        "o_id": "O032",
+        "merged_id": 107,
+        "m_id": "M108"
+      },
+      {
+        "bbox": [
+          143,
+          1009,
+          227,
+          1034
+        ],
+        "type": "text",
+        "source": "ocr_det",
+        "confidence": 1.0,
+        "id": 32,
+        "o_id": "O033",
+        "merged_id": 108,
+        "m_id": "M109"
+      },
+      {
+        "bbox": [
+          1781,
+          157,
+          1877,
+          181
+        ],
+        "type": "text",
+        "source": "ocr_det",
+        "confidence": 1.0,
+        "id": 33,
+        "o_id": "O034",
+        "merged_id": 109,
+        "m_id": "M110"
+      },
+      {
+        "bbox": [
+          1708,
+          157,
+          1779,
+          181
+        ],
+        "type": "text",
+        "source": "ocr_det",
+        "confidence": 1.0,
+        "id": 34,
+        "o_id": "O035",
+        "merged_id": 110,
+        "m_id": "M111"
+      },
+      {
+        "bbox": [
+          1651,
+          157,
+          1703,
+          181
+        ],
+        "type": "text",
+        "source": "ocr_det",
+        "confidence": 1.0,
+        "id": 35,
+        "o_id": "O036",
+        "merged_id": 111,
+        "m_id": "M112"
+      },
+      {
+        "bbox": [
+          1573,
+          157,
+          1622,
+          182
+        ],
+        "type": "text",
+        "source": "ocr_det",
+        "confidence": 1.0,
+        "id": 36,
+        "o_id": "O037",
+        "merged_id": 112,
+        "m_id": "M113"
+      },
+      {
+        "bbox": [
+          1120,
+          157,
+          1163,
+          182
+        ],
+        "type": "text",
+        "source": "ocr_det",
+        "confidence": 1.0,
+        "id": 38,
+        "o_id": "O039",
+        "merged_id": 113,
+        "m_id": "M114"
+      },
+      {
+        "bbox": [
+          727,
+          157,
+          750,
+          179
+        ],
+        "type": "text",
+        "source": "ocr_det",
+        "confidence": 1.0,
+        "id": 39,
+        "o_id": "O040",
+        "merged_id": 114,
+        "m_id": "M115"
+      },
+      {
+        "bbox": [
+          581,
+          157,
+          645,
+          182
+        ],
+        "type": "text",
+        "source": "ocr_det",
+        "confidence": 1.0,
+        "id": 40,
+        "o_id": "O041",
+        "merged_id": 115,
+        "m_id": "M116"
+      },
+      {
+        "bbox": [
+          313,
+          157,
+          350,
+          181
+        ],
+        "type": "text",
+        "source": "ocr_det",
+        "confidence": 1.0,
+        "id": 41,
+        "o_id": "O042",
+        "merged_id": 116,
+        "m_id": "M117"
+      },
+      {
+        "bbox": [
+          166,
+          157,
+          185,
+          179
+        ],
+        "type": "text",
+        "source": "ocr_det",
+        "confidence": 1.0,
+        "id": 42,
+        "o_id": "O043",
+        "merged_id": 117,
+        "m_id": "M118"
+      },
+      {
+        "bbox": [
+          59,
+          157,
+          122,
+          182
+        ],
+        "type": "text",
+        "source": "ocr_det",
+        "confidence": 1.0,
+        "id": 43,
+        "o_id": "O044",
+        "merged_id": 118,
+        "m_id": "M119"
+      },
+      {
+        "bbox": [
+          31,
+          136,
+          50,
+          155
+        ],
+        "type": "text",
+        "source": "ocr_det",
+        "confidence": 1.0,
+        "id": 45,
+        "o_id": "O046",
+        "merged_id": 119,
+        "m_id": "M120"
+      },
+      {
+        "bbox": [
+          1799,
+          133,
+          1860,
+          158
+        ],
+        "type": "text",
+        "source": "ocr_det",
+        "confidence": 1.0,
+        "id": 48,
+        "o_id": "O049",
+        "merged_id": 120,
+        "m_id": "M121"
+      },
+      {
+        "bbox": [
+          22,
+          117,
+          62,
+          143
+        ],
+        "type": "text",
+        "source": "ocr_det",
+        "confidence": 1.0,
+        "id": 57,
+        "o_id": "O058",
+        "merged_id": 121,
+        "m_id": "M122"
+      },
+      {
+        "bbox": [
+          1792,
+          116,
+          1868,
+          141
+        ],
+        "type": "text",
+        "source": "ocr_det",
+        "confidence": 1.0,
+        "id": 58,
+        "o_id": "O059",
+        "merged_id": 122,
+        "m_id": "M123"
+      },
+      {
+        "bbox": [
+          62,
+          108,
+          120,
+          135
+        ],
+        "type": "text",
+        "source": "ocr_det",
+        "confidence": 1.0,
+        "id": 68,
+        "o_id": "O069",
+        "merged_id": 123,
+        "m_id": "M124"
+      },
+      {
+        "bbox": [
+          1814,
+          90,
+          1845,
+          116
+        ],
+        "type": "text",
+        "source": "ocr_det",
+        "confidence": 1.0,
+        "id": 72,
+        "o_id": "O073",
+        "merged_id": 124,
+        "m_id": "M125"
+      },
+      {
+        "bbox": [
+          301,
+          90,
+          342,
+          115
+        ],
+        "type": "text",
+        "source": "ocr_det",
+        "confidence": 1.0,
+        "id": 77,
+        "o_id": "O078",
+        "merged_id": 125,
+        "m_id": "M126"
+      },
+      {
+        "bbox": [
+          26,
+          86,
+          62,
+          121
+        ],
+        "type": "text",
+        "source": "ocr_det",
+        "confidence": 1.0,
+        "id": 80,
+        "o_id": "O081",
+        "merged_id": 126,
+        "m_id": "M127"
+      },
+      {
+        "bbox": [
+          548,
+          53,
+          641,
+          78
+        ],
+        "type": "text",
+        "source": "ocr_det",
+        "confidence": 1.0,
+        "id": 84,
+        "o_id": "O085",
+        "merged_id": 127,
+        "m_id": "M128"
+      },
+      {
+        "bbox": [
+          496,
+          53,
+          549,
+          77
+        ],
+        "type": "text",
+        "source": "ocr_det",
+        "confidence": 1.0,
+        "id": 85,
+        "o_id": "O086",
+        "merged_id": 128,
+        "m_id": "M129"
+      },
+      {
+        "bbox": [
+          343,
+          53,
+          416,
+          77
+        ],
+        "type": "text",
+        "source": "ocr_det",
+        "confidence": 1.0,
+        "id": 86,
+        "o_id": "O087",
+        "merged_id": 129,
+        "m_id": "M130"
+      },
+      {
+        "bbox": [
+          284,
+          53,
+          333,
+          78
+        ],
+        "type": "text",
+        "source": "ocr_det",
+        "confidence": 1.0,
+        "id": 87,
+        "o_id": "O088",
+        "merged_id": 130,
+        "m_id": "M131"
+      },
+      {
+        "bbox": [
+          170,
+          53,
+          213,
+          77
+        ],
+        "type": "text",
+        "source": "ocr_det",
+        "confidence": 1.0,
+        "id": 88,
+        "o_id": "O089",
+        "merged_id": 131,
+        "m_id": "M132"
+      },
+      {
+        "bbox": [
+          118,
+          53,
+          164,
+          77
+        ],
+        "type": "text",
+        "source": "ocr_det",
+        "confidence": 1.0,
+        "id": 89,
+        "o_id": "O090",
+        "merged_id": 132,
+        "m_id": "M133"
+      },
+      {
+        "bbox": [
+          62,
+          53,
+          110,
+          78
+        ],
+        "type": "text",
+        "source": "ocr_det",
+        "confidence": 1.0,
+        "id": 90,
+        "o_id": "O091",
+        "merged_id": 133,
+        "m_id": "M134"
+      },
+      {
+        "bbox": [
+          427,
+          51,
+          486,
+          78
+        ],
+        "type": "text",
+        "source": "ocr_det",
+        "confidence": 1.0,
+        "id": 92,
+        "o_id": "O093",
+        "merged_id": 134,
+        "m_id": "M135"
+      },
+      {
+        "bbox": [
+          221,
+          51,
+          273,
+          78
+        ],
+        "type": "text",
+        "source": "ocr_det",
+        "confidence": 1.0,
+        "id": 93,
+        "o_id": "O094",
+        "merged_id": 135,
+        "m_id": "M136"
+      },
+      {
+        "bbox": [
+          16,
+          51,
+          48,
+          77
+        ],
+        "type": "text",
+        "source": "ocr_det",
+        "confidence": 1.0,
+        "id": 94,
+        "o_id": "O095",
+        "merged_id": 136,
+        "m_id": "M137"
+      },
+      {
+        "bbox": [
+          796,
+          11,
+          825,
+          34
+        ],
+        "type": "text",
+        "source": "ocr_det",
+        "confidence": 1.0,
+        "id": 102,
+        "o_id": "O103",
+        "merged_id": 137,
+        "m_id": "M138"
+      },
+      {
+        "bbox": [
+          43,
+          11,
+          101,
+          37
+        ],
+        "type": "text",
+        "source": "ocr_det",
+        "confidence": 1.0,
+        "id": 105,
+        "o_id": "O106",
+        "merged_id": 138,
+        "m_id": "M139"
+      }
+    ]
+  },
+  "seraphine_gemini_groups": {
+    "H0": {
+      "H0_1": {
+        "bbox": [
+          0,
+          1032,
+          7,
+          1077
+        ],
+        "g_icon_name": "unanalyzed",
+        "g_brief": "Not analyzed by Gemini",
+        "m_id": "M100",
+        "y_id": "Y103",
+        "o_id": null,
+        "type": "icon",
+        "source": "yolo"
+      },
+      "H0_2": {
+        "bbox": [
+          10,
+          1032,
+          53,
+          1078
+        ],
+        "g_icon_name": "Windows Icon",
+        "g_brief": "Opens the Windows start menu",
+        "m_id": "M071",
+        "y_id": "Y073",
+        "o_id": null,
+        "type": "icon",
+        "source": "yolo"
+      },
+      "H0_3": {
+        "bbox": [
+          56,
+          1033,
+          97,
+          1079
+        ],
+        "g_icon_name": "Search",
+        "g_brief": "Opens the search bar",
+        "m_id": "M020",
+        "y_id": "Y021",
+        "o_id": null,
+        "type": "icon",
+        "source": "yolo"
+      },
+      "H0_4": {
+        "bbox": [
+          101,
+          1033,
+          143,
+          1078
+        ],
+        "g_icon_name": "Application Icon",
+        "g_brief": "Represents the current application",
+        "m_id": "M043",
+        "y_id": "Y044",
+        "o_id": null,
+        "type": "icon",
+        "source": "yolo"
+      },
+      "H0_5": {
+        "bbox": [
+          144,
+          1033,
+          186,
+          1079
+        ],
+        "g_icon_name": "unanalyzed",
+        "g_brief": "Not analyzed by Gemini",
+        "m_id": "M053",
+        "y_id": "Y054",
+        "o_id": null,
+        "type": "icon",
+        "source": "yolo"
+      },
+      "H0_6": {
+        "bbox": [
+          188,
+          1034,
+          228,
+          1079
+        ],
+        "g_icon_name": "unanalyzed",
+        "g_brief": "Not analyzed by Gemini",
+        "m_id": "M033",
+        "y_id": "Y034",
+        "o_id": null,
+        "type": "icon",
+        "source": "yolo"
+      },
+      "H0_7": {
+        "bbox": [
+          231,
+          1034,
+          272,
+          1078
+        ],
+        "g_icon_name": "unanalyzed",
+        "g_brief": "Not analyzed by Gemini",
+        "m_id": "M030",
+        "y_id": "Y031",
+        "o_id": null,
+        "type": "icon",
+        "source": "yolo"
+      },
+      "H0_8": {
+        "bbox": [
+          277,
+          1034,
+          319,
+          1078
+        ],
+        "g_icon_name": "unanalyzed",
+        "g_brief": "Not analyzed by Gemini",
+        "m_id": "M047",
+        "y_id": "Y048",
+        "o_id": null,
+        "type": "icon",
+        "source": "yolo"
+      },
+      "H0_9": {
+        "bbox": [
+          321,
+          1034,
+          360,
+          1079
+        ],
+        "g_icon_name": "unanalyzed",
+        "g_brief": "Not analyzed by Gemini",
+        "m_id": "M066",
+        "y_id": "Y067",
+        "o_id": null,
+        "type": "icon",
+        "source": "yolo"
+      },
+      "H0_10": {
+        "bbox": [
+          364,
+          1034,
+          406,
+          1079
+        ],
+        "g_icon_name": "unanalyzed",
+        "g_brief": "Not analyzed by Gemini",
+        "m_id": "M062",
+        "y_id": "Y063",
+        "o_id": null,
+        "type": "icon",
+        "source": "yolo"
+      },
+      "H0_11": {
+        "bbox": [
+          411,
+          1035,
+          448,
+          1080
+        ],
+        "g_icon_name": "unanalyzed",
+        "g_brief": "Not analyzed by Gemini",
+        "m_id": "M064",
+        "y_id": "Y065",
+        "o_id": null,
+        "type": "icon",
+        "source": "yolo"
+      },
+      "H0_12": {
+        "bbox": [
+          455,
+          1036,
+          490,
+          1079
+        ],
+        "g_icon_name": "unanalyzed",
+        "g_brief": "Not analyzed by Gemini",
+        "m_id": "M073",
+        "y_id": "Y075",
+        "o_id": null,
+        "type": "icon",
+        "source": "yolo"
+      },
+      "H0_13": {
+        "bbox": [
+          498,
+          1035,
+          535,
+          1079
+        ],
+        "g_icon_name": "unanalyzed",
+        "g_brief": "Not analyzed by Gemini",
+        "m_id": "M065",
+        "y_id": "Y066",
+        "o_id": null,
+        "type": "icon",
+        "source": "yolo"
+      },
+      "H0_14": {
+        "bbox": [
+          539,
+          1035,
+          579,
+          1079
+        ],
+        "g_icon_name": "unanalyzed",
+        "g_brief": "Not analyzed by Gemini",
+        "m_id": "M051",
+        "y_id": "Y052",
+        "o_id": null,
+        "type": "icon",
+        "source": "yolo"
+      },
+      "H0_15": {
+        "bbox": [
+          583,
+          1036,
+          628,
+          1079
+        ],
+        "g_icon_name": "unanalyzed",
+        "g_brief": "Not analyzed by Gemini",
+        "m_id": "M040",
+        "y_id": "Y041",
+        "o_id": null,
+        "type": "icon",
+        "source": "yolo"
+      },
+      "H0_16": {
+        "bbox": [
+          630,
+          1036,
+          672,
+          1079
+        ],
+        "g_icon_name": "unanalyzed",
+        "g_brief": "Not analyzed by Gemini",
+        "m_id": "M031",
+        "y_id": "Y032",
+        "o_id": null,
+        "type": "icon",
+        "source": "yolo"
+      },
+      "H0_17": {
+        "bbox": [
+          673,
+          1036,
+          713,
+          1078
+        ],
+        "g_icon_name": "unanalyzed",
+        "g_brief": "Not analyzed by Gemini",
+        "m_id": "M026",
+        "y_id": "Y027",
+        "o_id": null,
+        "type": "icon",
+        "source": "yolo"
+      },
+      "H0_18": {
+        "bbox": [
+          717,
+          1035,
+          758,
+          1078
+        ],
+        "g_icon_name": "unanalyzed",
+        "g_brief": "Not analyzed by Gemini",
+        "m_id": "M044",
+        "y_id": "Y045",
+        "o_id": null,
+        "type": "icon",
+        "source": "yolo"
+      },
+      "H0_19": {
+        "bbox": [
+          758,
+          1036,
+          804,
+          1080
+        ],
+        "g_icon_name": "unanalyzed",
+        "g_brief": "Not analyzed by Gemini",
+        "m_id": "M029",
+        "y_id": "Y030",
+        "o_id": null,
+        "type": "icon",
+        "source": "yolo"
+      },
+      "H0_20": {
+        "bbox": [
+          805,
+          1036,
+          843,
+          1079
+        ],
+        "g_icon_name": "unanalyzed",
+        "g_brief": "Not analyzed by Gemini",
+        "m_id": "M052",
+        "y_id": "Y053",
+        "o_id": null,
+        "type": "icon",
+        "source": "yolo"
+      },
+      "H0_21": {
+        "bbox": [
+          848,
+          1036,
+          889,
+          1079
+        ],
+        "g_icon_name": "unanalyzed",
+        "g_brief": "Not analyzed by Gemini",
+        "m_id": "M067",
+        "y_id": "Y068",
+        "o_id": null,
+        "type": "icon",
+        "source": "yolo"
+      },
+      "H0_22": {
+        "bbox": [
+          893,
+          1035,
+          934,
+          1079
+        ],
+        "g_icon_name": "unanalyzed",
+        "g_brief": "Not analyzed by Gemini",
+        "m_id": "M057",
+        "y_id": "Y058",
+        "o_id": null,
+        "type": "icon",
+        "source": "yolo"
+      },
+      "H0_23": {
+        "bbox": [
+          935,
+          1035,
+          978,
+          1079
+        ],
+        "g_icon_name": "unanalyzed",
+        "g_brief": "Not analyzed by Gemini",
+        "m_id": "M048",
+        "y_id": "Y049",
+        "o_id": null,
+        "type": "icon",
+        "source": "yolo"
+      }
+    },
+    "H1": {
+      "H1_1": {
+        "bbox": [
+          7,
+          3,
+          41,
+          43
+        ],
+        "g_icon_name": "W",
+        "g_brief": "Opens the file menu in Microsoft Word",
+        "m_id": "M056",
+        "y_id": "Y057",
+        "o_id": null,
+        "type": "icon",
+        "source": "yolo"
+      },
+      "H1_2": {
+        "bbox": [
+          43,
+          11,
+          101,
+          37
+        ],
+        "g_icon_name": "AutoSave",
+        "g_brief": "Toggles automatic saving of the document",
+        "m_id": "M139",
+        "y_id": null,
+        "o_id": "O106",
+        "type": "text",
+        "source": "ocr_det"
+      },
+      "H1_3": {
+        "bbox": [
+          103,
+          11,
+          152,
+          37
+        ],
+        "g_icon_name": "Off",
+        "g_brief": "Indicates that AutoSave is currently turned off",
+        "m_id": "M042",
+        "y_id": null,
+        "o_id": "O105",
+        "type": "text",
+        "source": "ocr_det"
+      },
+      "H1_4": {
+        "bbox": [
+          155,
+          3,
+          183,
+          39
+        ],
+        "g_icon_name": "Document View",
+        "g_brief": "Changes the layout view of the document",
+        "m_id": "M069",
+        "y_id": "Y070",
+        "o_id": null,
+        "type": "icon",
+        "source": "yolo"
+      },
+      "H1_5": {
+        "bbox": [
+          186,
+          3,
+          221,
+          40
+        ],
+        "g_icon_name": "Undo",
+        "g_brief": "Reverts the last action",
+        "m_id": "M059",
+        "y_id": "Y060",
+        "o_id": null,
+        "type": "icon",
+        "source": "yolo"
+      },
+      "H1_6": {
+        "bbox": [
+          223,
+          10,
+          254,
+          37
+        ],
+        "g_icon_name": "Redo",
+        "g_brief": "Repeats the last undone action",
+        "m_id": "M099",
+        "y_id": null,
+        "o_id": "O108",
+        "type": "text",
+        "source": "ocr_det"
+      },
+      "H1_7": {
+        "bbox": [
+          247,
+          5,
+          276,
+          40
+        ],
+        "g_icon_name": "Dropdown Arrow",
+        "g_brief": "Opens a menu with more options",
+        "m_id": "M093",
+        "y_id": "Y096",
+        "o_id": null,
+        "type": "icon",
+        "source": "yolo"
+      },
+      "H1_8": {
+        "bbox": [
+          285,
+          7,
+          416,
+          41
+        ],
+        "g_icon_name": "Document1 - Word",
+        "g_brief": "Title bar showing the current document name and application",
+        "m_id": "M080",
+        "y_id": "Y083",
+        "o_id": null,
+        "type": "icon",
+        "source": "yolo"
+      }
+    },
+    "H2": {
+      "H2_1": {
+        "bbox": [
+          7,
+          1012,
+          74,
+          1035
+        ],
+        "g_icon_name": "Page 1 of 1",
+        "g_brief": "Displays the current page number and total pages",
+        "m_id": "M106",
+        "y_id": null,
+        "o_id": "O026",
+        "type": "text",
+        "source": "ocr_det"
+      },
+      "H2_2": {
+        "bbox": [
+          82,
+          1010,
+          135,
+          1034
+        ],
+        "g_icon_name": "0 words",
+        "g_brief": "Displays the word count of the document",
+        "m_id": "M108",
+        "y_id": null,
+        "o_id": "O032",
+        "type": "text",
+        "source": "ocr_det"
+      },
+      "H2_3": {
+        "bbox": [
+          143,
+          1009,
+          227,
+          1034
+        ],
+        "g_icon_name": "English (India)",
+        "g_brief": "Indicates the current language setting",
+        "m_id": "M109",
+        "y_id": null,
+        "o_id": "O033",
+        "type": "text",
+        "source": "ocr_det"
+      },
+      "H2_4": {
+        "bbox": [
+          235,
+          1010,
+          389,
+          1035
+        ],
+        "g_icon_name": "Accessibility: Good to go",
+        "g_brief": "Indicates that the document has no accessibility issues",
+        "m_id": "M102",
+        "y_id": null,
+        "o_id": "O031",
+        "type": "text",
+        "source": "ocr_det"
+      }
+    },
+    "H3": {
+      "H3_1": {
+        "bbox": [
+          16,
+          51,
+          48,
+          77
+        ],
+        "g_icon_name": "File",
+        "g_brief": "Opens the file menu",
+        "m_id": "M137",
+        "y_id": null,
+        "o_id": "O095",
+        "type": "text",
+        "source": "ocr_det"
+      },
+      "H3_2": {
+        "bbox": [
+          62,
+          53,
+          110,
+          78
+        ],
+        "g_icon_name": "Home",
+        "g_brief": "Navigates to the Home tab",
+        "m_id": "M134",
+        "y_id": null,
+        "o_id": "O091",
+        "type": "text",
+        "source": "ocr_det"
+      },
+      "H3_3": {
+        "bbox": [
+          118,
+          53,
+          164,
+          77
+        ],
+        "g_icon_name": "Insert",
+        "g_brief": "Navigates to the Insert tab",
+        "m_id": "M133",
+        "y_id": null,
+        "o_id": "O090",
+        "type": "text",
+        "source": "ocr_det"
+      },
+      "H3_4": {
+        "bbox": [
+          170,
+          53,
+          213,
+          77
+        ],
+        "g_icon_name": "Draw",
+        "g_brief": "Navigates to the Draw tab",
+        "m_id": "M132",
+        "y_id": null,
+        "o_id": "O089",
+        "type": "text",
+        "source": "ocr_det"
+      },
+      "H3_5": {
+        "bbox": [
+          221,
+          51,
+          273,
+          78
+        ],
+        "g_icon_name": "Design",
+        "g_brief": "Navigates to the Design tab",
+        "m_id": "M136",
+        "y_id": null,
+        "o_id": "O094",
+        "type": "text",
+        "source": "ocr_det"
+      },
+      "H3_6": {
+        "bbox": [
+          284,
+          53,
+          333,
+          78
+        ],
+        "g_icon_name": "Layout",
+        "g_brief": "Navigates to the Layout tab",
+        "m_id": "M131",
+        "y_id": null,
+        "o_id": "O088",
+        "type": "text",
+        "source": "ocr_det"
+      },
+      "H3_7": {
+        "bbox": [
+          343,
+          53,
+          416,
+          77
+        ],
+        "g_icon_name": "References",
+        "g_brief": "Navigates to the References tab",
+        "m_id": "M130",
+        "y_id": null,
+        "o_id": "O087",
+        "type": "text",
+        "source": "ocr_det"
+      },
+      "H3_8": {
+        "bbox": [
+          427,
+          51,
+          486,
+          78
+        ],
+        "g_icon_name": "Mailings",
+        "g_brief": "Navigates to the Mailings tab",
+        "m_id": "M135",
+        "y_id": null,
+        "o_id": "O093",
+        "type": "text",
+        "source": "ocr_det"
+      },
+      "H3_9": {
+        "bbox": [
+          496,
+          53,
+          549,
+          77
+        ],
+        "g_icon_name": "Review",
+        "g_brief": "Navigates to the Review tab",
+        "m_id": "M129",
+        "y_id": null,
+        "o_id": "O086",
+        "type": "text",
+        "source": "ocr_det"
+      },
+      "H3_10": {
+        "bbox": [
+          548,
+          53,
+          641,
+          78
+        ],
+        "g_icon_name": "View",
+        "g_brief": "Navigates to the View tab",
+        "m_id": "M128",
+        "y_id": null,
+        "o_id": "O085",
+        "type": "text",
+        "source": "ocr_det"
+      }
+    },
+    "H4": {
+      "H4_1": {
+        "bbox": [
+          31,
+          136,
+          50,
+          155
+        ],
+        "g_icon_name": "Dropdown Arrow",
+        "g_brief": "Opens a menu",
+        "m_id": "M120",
+        "y_id": null,
+        "o_id": "O046",
+        "type": "text",
+        "source": "ocr_det"
+      },
+      "H4_2": {
+        "bbox": [
+          64,
+          134,
+          173,
+          161
+        ],
+        "g_icon_name": "Format Painter",
+        "g_brief": "Copies formatting from one selection to another",
+        "m_id": "M016",
+        "y_id": null,
+        "o_id": "O048",
+        "type": "text",
+        "source": "ocr_det"
+      }
+    },
+    "H5": {
+      "H5_1": {
+        "bbox": [
+          59,
+          157,
+          122,
+          182
+        ],
+        "g_icon_name": "Clipboard",
+        "g_brief": "Opens the clipboard panel",
+        "m_id": "M119",
+        "y_id": null,
+        "o_id": "O044",
+        "type": "text",
+        "source": "ocr_det"
+      }
+    },
+    "H6": {
+      "H6_1": {
+        "bbox": [
+          166,
+          157,
+          185,
+          179
+        ],
+        "g_icon_name": "New Document",
+        "g_brief": "Creates a new document",
+        "m_id": "M118",
+        "y_id": null,
+        "o_id": "O043",
+        "type": "text",
+        "source": "ocr_det"
+      }
+    },
+    "H7": {
+      "H7_1": {
+        "bbox": [
+          316,
+          88,
+          362,
+          115
+        ],
+        "g_icon_name": "12",
+        "g_brief": "Font size dropdown",
+        "m_id": "M009",
+        "y_id": "Y009",
+        "o_id": null,
+        "type": "icon",
+        "source": "yolo"
+      }
+    },
+    "H8": {
+      "H8_1": {
+        "bbox": [
+          191,
+          121,
+          214,
+          144
+        ],
+        "g_icon_name": "B",
+        "g_brief": "Toggles bold text formatting",
+        "m_id": "M054",
+        "y_id": "Y055",
+        "o_id": null,
+        "type": "icon",
+        "source": "yolo"
+      },
+      "H8_2": {
+        "bbox": [
+          218,
+          122,
+          239,
+          143
+        ],
+        "g_icon_name": "I",
+        "g_brief": "Toggles italic text formatting",
+        "m_id": "M070",
+        "y_id": "Y072",
+        "o_id": null,
+        "type": "icon",
+        "source": "yolo"
+      },
+      "H8_3": {
+        "bbox": [
+          244,
+          122,
+          280,
+          143
+        ],
+        "g_icon_name": "U",
+        "g_brief": "Toggles underline text formatting",
+        "m_id": "M024",
+        "y_id": "Y025",
+        "o_id": null,
+        "type": "icon",
+        "source": "yolo"
+      },
+      "H8_4": {
+        "bbox": [
+          284,
+          123,
+          312,
+          146
+        ],
+        "g_icon_name": "ab",
+        "g_brief": "Strikethrough text formatting",
+        "m_id": "M022",
+        "y_id": null,
+        "o_id": "O054",
+        "type": "text",
+        "source": "ocr_det"
+      },
+      "H8_5": {
+        "bbox": [
+          313,
+          125,
+          338,
+          146
+        ],
+        "g_icon_name": "X2",
+        "g_brief": "Subscript text formatting",
+        "m_id": "M034",
+        "y_id": null,
+        "o_id": "O050",
+        "type": "text",
+        "source": "ocr_det"
+      },
+      "H8_6": {
+        "bbox": [
+          339,
+          123,
+          358,
+          144
+        ],
+        "g_icon_name": "X2",
+        "g_brief": "Superscript text formatting",
+        "m_id": "M041",
+        "y_id": "Y042",
+        "o_id": null,
+        "type": "icon",
+        "source": "yolo"
+      },
+      "H8_7": {
+        "bbox": [
+          364,
+          120,
+          400,
+          145
+        ],
+        "g_icon_name": "A",
+        "g_brief": "Text highlighting color",
+        "m_id": "M015",
+        "y_id": "Y016",
+        "o_id": null,
+        "type": "icon",
+        "source": "yolo"
+      },
+      "H8_8": {
+        "bbox": [
+          405,
+          119,
+          443,
+          145
+        ],
+        "g_icon_name": "Pen Icon",
+        "g_brief": "Change text color",
+        "m_id": "M023",
+        "y_id": "Y024",
+        "o_id": null,
+        "type": "icon",
+        "source": "yolo"
+      },
+      "H8_9": {
+        "bbox": [
+          447,
+          120,
+          485,
+          145
+        ],
+        "g_icon_name": "A",
+        "g_brief": "Change font color",
+        "m_id": "M025",
+        "y_id": "Y026",
+        "o_id": null,
+        "type": "icon",
+        "source": "yolo"
+      },
+      "H8_10": {
+        "bbox": [
+          498,
+          119,
+          529,
+          149
+        ],
+        "g_icon_name": "Line Icon",
+        "g_brief": "Align left",
+        "m_id": "M039",
+        "y_id": "Y040",
+        "o_id": null,
+        "type": "icon",
+        "source": "yolo"
+      },
+      "H8_11": {
+        "bbox": [
+          531,
+          120,
+          551,
+          147
+        ],
+        "g_icon_name": "Line Icon",
+        "g_brief": "Align center",
+        "m_id": "M074",
+        "y_id": "Y077",
+        "o_id": null,
+        "type": "icon",
+        "source": "yolo"
+      },
+      "H8_12": {
+        "bbox": [
+          555,
+          121,
+          578,
+          147
+        ],
+        "g_icon_name": "Line Icon",
+        "g_brief": "Align right",
+        "m_id": "M061",
+        "y_id": "Y062",
+        "o_id": null,
+        "type": "icon",
+        "source": "yolo"
+      },
+      "H8_13": {
+        "bbox": [
+          581,
+          121,
+          605,
+          146
+        ],
+        "g_icon_name": "unanalyzed",
+        "g_brief": "Not analyzed by Gemini",
+        "m_id": "M049",
+        "y_id": "Y050",
+        "o_id": null,
+        "type": "icon",
+        "source": "yolo"
+      }
+    },
+    "H9": {
+      "H9_1": {
+        "bbox": [
+          301,
+          90,
+          342,
+          115
+        ],
+        "g_icon_name": "12",
+        "g_brief": "Font size selector",
+        "m_id": "M126",
+        "y_id": null,
+        "o_id": "O078",
+        "type": "text",
+        "source": "ocr_det"
+      },
+      "H9_2": {
+        "bbox": [
+          344,
+          90,
+          393,
+          113
+        ],
+        "g_icon_name": "A^",
+        "g_brief": "Increase font size",
+        "m_id": "M018",
+        "y_id": null,
+        "o_id": "O077",
+        "type": "text",
+        "source": "ocr_det"
+      },
+      "H9_3": {
+        "bbox": [
+          391,
+          91,
+          458,
+          115
+        ],
+        "g_icon_name": "A Aa",
+        "g_brief": "Change case",
+        "m_id": "M035",
+        "y_id": null,
+        "o_id": "O072",
+        "type": "text",
+        "source": "ocr_det"
+      },
+      "H9_4": {
+        "bbox": [
+          461,
+          90,
+          485,
+          115
+        ],
+        "g_icon_name": "Format",
+        "g_brief": "Text effects and typography",
+        "m_id": "M038",
+        "y_id": null,
+        "o_id": "O076",
+        "type": "text",
+        "source": "ocr_det"
+      },
+      "H9_5": {
+        "bbox": [
+          501,
+          90,
+          539,
+          112
+        ],
+        "g_icon_name": "Bullet Points",
+        "g_brief": "Creates a bulleted list",
+        "m_id": "M027",
+        "y_id": "Y028",
+        "o_id": null,
+        "type": "icon",
+        "source": "yolo"
+      },
+      "H9_6": {
+        "bbox": [
+          542,
+          90,
+          579,
+          112
+        ],
+        "g_icon_name": "Numbering",
+        "g_brief": "Creates a numbered list",
+        "m_id": "M045",
+        "y_id": "Y046",
+        "o_id": null,
+        "type": "icon",
+        "source": "yolo"
+      }
+    },
+    "H10": {
+      "H10_1": {
+        "bbox": [
+          392,
+          91,
+          410,
+          112
+        ],
+        "g_icon_name": "A",
+        "g_brief": "Clear All Formatting",
+        "m_id": "M036",
+        "y_id": "Y037",
+        "o_id": null,
+        "type": "icon",
+        "source": "yolo"
+      }
+    },
+    "H11": {
+      "H11_1": {
+        "bbox": [
+          629,
+          92,
+          653,
+          112
+        ],
+        "g_icon_name": "Distribute text evenly",
+        "g_brief": "Distributes space evenly between text",
+        "m_id": "M050",
+        "y_id": "Y051",
+        "o_id": null,
+        "type": "icon",
+        "source": "yolo"
+      },
+      "H11_2": {
+        "bbox": [
+          656,
+          91,
+          680,
+          112
+        ],
+        "g_icon_name": "Increase Indent",
+        "g_brief": "Increases the indent",
+        "m_id": "M060",
+        "y_id": "Y061",
+        "o_id": null,
+        "type": "icon",
+        "source": "yolo"
+      },
+      "H11_3": {
+        "bbox": [
+          686,
+          92,
+          707,
+          113
+        ],
+        "g_icon_name": "Sort",
+        "g_brief": "Sort selected text",
+        "m_id": "M037",
+        "y_id": "Y038",
+        "o_id": null,
+        "type": "icon",
+        "source": "yolo"
+      },
+      "H11_4": {
+        "bbox": [
+          716,
+          91,
+          736,
+          113
+        ],
+        "g_icon_name": "Paragraph Symbol",
+        "g_brief": "Show/hide paragraph marks",
+        "m_id": "M055",
+        "y_id": "Y056",
+        "o_id": null,
+        "type": "icon",
+        "source": "yolo"
+      }
+    },
+    "H12": {
+      "H12_1": {
+        "bbox": [
+          653,
+          121,
+          690,
+          145
+        ],
+        "g_icon_name": "Line and Paragraph Spacing",
+        "g_brief": "Change the spacing between lines and paragraphs",
+        "m_id": "M019",
+        "y_id": "Y020",
+        "o_id": null,
+        "type": "icon",
+        "source": "yolo"
+      },
+      "H12_2": {
+        "bbox": [
+          697,
+          122,
+          736,
+          143
+        ],
+        "g_icon_name": "No borders",
+        "g_brief": "Formatting Options",
+        "m_id": "M028",
+        "y_id": "Y029",
+        "o_id": null,
+        "type": "icon",
+        "source": "yolo"
+      }
+    },
+    "H13": {
+      "H13_1": {
+        "bbox": [
+          727,
+          157,
+          750,
+          179
+        ],
+        "g_icon_name": "Styles pane",
+        "g_brief": "Opens the styles pane",
+        "m_id": "M115",
+        "y_id": null,
+        "o_id": "O040",
+        "type": "text",
+        "source": "ocr_det"
+      }
+    },
+    "H14": {
+      "H14_1": {
+        "bbox": [
+          752,
+          88,
+          867,
+          151
+        ],
+        "g_icon_name": "Normal",
+        "g_brief": "Applies the Normal style",
+        "m_id": "M001",
+        "y_id": "Y001",
+        "o_id": null,
+        "type": "icon",
+        "source": "yolo"
+      },
+      "H14_2": {
+        "bbox": [
+          864,
+          89,
+          971,
+          149
+        ],
+        "g_icon_name": "No Spacing",
+        "g_brief": "Applies the No Spacing style",
+        "m_id": "M006",
+        "y_id": "Y006",
+        "o_id": null,
+        "type": "icon",
+        "source": "yolo"
+      },
+      "H14_3": {
+        "bbox": [
+          975,
+          92,
+          1079,
+          145
+        ],
+        "g_icon_name": "Heading",
+        "g_brief": "Applies the Heading style",
+        "m_id": "M004",
+        "y_id": "Y004",
+        "o_id": null,
+        "type": "icon",
+        "source": "yolo"
+      },
+      "H14_4": {
+        "bbox": [
+          1082,
+          92,
+          1186,
+          145
+        ],
+        "g_icon_name": "Heading 2",
+        "g_brief": "Applies the Heading 2 style",
+        "m_id": "M002",
+        "y_id": "Y002",
+        "o_id": null,
+        "type": "icon",
+        "source": "yolo"
+      },
+      "H14_5": {
+        "bbox": [
+          1189,
+          93,
+          1295,
+          145
+        ],
+        "g_icon_name": "Title",
+        "g_brief": "Applies the Title style",
+        "m_id": "M003",
+        "y_id": "Y003",
+        "o_id": null,
+        "type": "icon",
+        "source": "yolo"
+      },
+      "H14_6": {
+        "bbox": [
+          1298,
+          93,
+          1403,
+          145
+        ],
+        "g_icon_name": "Subtitle",
+        "g_brief": "Applies the Subtitle style",
+        "m_id": "M005",
+        "y_id": "Y005",
+        "o_id": null,
+        "type": "icon",
+        "source": "yolo"
+      },
+      "H14_7": {
+        "bbox": [
+          1406,
+          90,
+          1512,
+          151
+        ],
+        "g_icon_name": "Subtle Emphas",
+        "g_brief": "Applies the Subtle Emphasis style",
+        "m_id": "M046",
+        "y_id": "Y047",
+        "o_id": null,
+        "type": "icon",
+        "source": "yolo"
+      },
+      "H14_8": {
+        "bbox": [
+          1512,
+          88,
+          1540,
+          151
+        ],
+        "g_icon_name": "unanalyzed",
+        "g_brief": "Not analyzed by Gemini",
+        "m_id": "M032",
+        "y_id": "Y033",
+        "o_id": null,
+        "type": "icon",
+        "source": "yolo"
+      },
+      "H14_9": {
+        "bbox": [
+          1556,
+          108,
+          1628,
+          135
+        ],
+        "g_icon_name": "Replace",
+        "g_brief": "Find and replace text",
+        "m_id": "M085",
+        "y_id": null,
+        "o_id": "O062",
+        "type": "text",
+        "source": "ocr_det"
+      },
+      "H14_10": {
+        "bbox": [
+          1645,
+          79,
+          1707,
+          176
+        ],
+        "g_icon_name": "unanalyzed",
+        "g_brief": "Not analyzed by Gemini",
+        "m_id": "M007",
+        "y_id": "Y007",
+        "o_id": null,
+        "type": "icon",
+        "source": "yolo"
+      },
+      "H14_11": {
+        "bbox": [
+          1707,
+          79,
+          1776,
+          175
+        ],
+        "g_icon_name": "unanalyzed",
+        "g_brief": "Not analyzed by Gemini",
+        "m_id": "M010",
+        "y_id": "Y010",
+        "o_id": null,
+        "type": "icon",
+        "source": "yolo"
+      },
+      "H14_12": {
+        "bbox": [
+          1792,
+          116,
+          1868,
+          141
+        ],
+        "g_icon_name": "unanalyzed",
+        "g_brief": "Not analyzed by Gemini",
+        "m_id": "M123",
+        "y_id": null,
+        "o_id": "O059",
+        "type": "text",
+        "source": "ocr_det"
+      },
+      "H14_13": {
+        "bbox": [
+          1880,
+          78,
+          1913,
+          174
+        ],
+        "g_icon_name": "unanalyzed",
+        "g_brief": "Not analyzed by Gemini",
+        "m_id": "M082",
+        "y_id": "Y085",
+        "o_id": null,
+        "type": "icon",
+        "source": "yolo"
+      }
+    },
+    "H15": {
+      "H15_1": {
+        "bbox": [
+          775,
+          5,
+          1157,
+          47
+        ],
+        "g_icon_name": "Search",
+        "g_brief": "Search for text within the document",
+        "m_id": "M068",
+        "y_id": "Y069",
+        "o_id": null,
+        "type": "icon",
+        "source": "yolo"
+      }
+    },
+    "H16": {
+      "H16_1": {
+        "bbox": [
+          793,
+          13,
+          814,
+          36
+        ],
+        "g_icon_name": "Zoom in",
+        "g_brief": "Magnifying glass icon for zoom in",
+        "m_id": "M075",
+        "y_id": "Y078",
+        "o_id": null,
+        "type": "icon",
+        "source": "yolo"
+      }
+    },
+    "H17": {
+      "H17_1": {
+        "bbox": [
+          796,
+          11,
+          825,
+          34
+        ],
+        "g_icon_name": "Zoom Out",
+        "g_brief": "Magnifying glass icon for zoom out",
+        "m_id": "M138",
+        "y_id": null,
+        "o_id": "O103",
+        "type": "text",
+        "source": "ocr_det"
+      }
+    },
+    "H18": {
+      "H18_1": {
+        "bbox": [
+          1120,
+          157,
+          1163,
+          182
+        ],
+        "g_icon_name": "Styles",
+        "g_brief": "Opens the styles menu",
+        "m_id": "M114",
+        "y_id": null,
+        "o_id": "O039",
+        "type": "text",
+        "source": "ocr_det"
+      }
+    },
+    "H19": {
+      "H19_1": {
+        "bbox": [
+          1531,
+          157,
+          1553,
+          179
+        ],
+        "g_icon_name": "Open in App",
+        "g_brief": "Opens the document in the desktop application",
+        "m_id": "M098",
+        "y_id": null,
+        "o_id": "O038",
+        "type": "text",
+        "source": "ocr_det"
+      }
+    },
+    "H20": {
+      "H20_1": {
+        "bbox": [
+          1546,
+          1043,
+          1576,
+          1070
+        ],
+        "g_icon_name": "Up Arrow",
+        "g_brief": "Scrolls up in the navigation",
+        "m_id": "M090",
+        "y_id": "Y093",
+        "o_id": null,
+        "type": "icon",
+        "source": "yolo"
+      },
+      "H20_2": {
+        "bbox": [
+          1580,
+          1044,
+          1610,
+          1071
+        ],
+        "g_icon_name": "46",
+        "g_brief": "Previous",
+        "m_id": "M087",
+        "y_id": null,
+        "o_id": "O011",
+        "type": "text",
+        "source": "ocr_det"
+      },
+      "H20_3": {
+        "bbox": [
+          1612,
+          1044,
+          1640,
+          1069
+        ],
+        "g_icon_name": "44",
+        "g_brief": "Next",
+        "m_id": "M086",
+        "y_id": null,
+        "o_id": "O010",
+        "type": "text",
+        "source": "ocr_det"
+      },
+      "H20_4": {
+        "bbox": [
+          1643,
+          1040,
+          1672,
+          1067
+        ],
+        "g_icon_name": "Mail Icon",
+        "g_brief": "Share the Document",
+        "m_id": "M095",
+        "y_id": "Y098",
+        "o_id": null,
+        "type": "icon",
+        "source": "yolo"
+      },
+      "H20_5": {
+        "bbox": [
+          1673,
+          1034,
+          1704,
+          1074
+        ],
+        "g_icon_name": "User Icon",
+        "g_brief": "Account Details",
+        "m_id": "M092",
+        "y_id": "Y095",
+        "o_id": null,
+        "type": "icon",
+        "source": "yolo"
+      },
+      "H20_6": {
+        "bbox": [
+          1709,
+          1034,
+          1746,
+          1075
+        ],
+        "g_icon_name": "ENG IN",
+        "g_brief": "Language settings",
+        "m_id": "M072",
+        "y_id": "Y074",
+        "o_id": null,
+        "type": "icon",
+        "source": "yolo"
+      },
+      "H20_7": {
+        "bbox": [
+          1752,
+          1040,
+          1777,
+          1074
+        ],
+        "g_icon_name": "Wifi Icon",
+        "g_brief": "Connection Status",
+        "m_id": "M083",
+        "y_id": "Y086",
+        "o_id": null,
+        "type": "icon",
+        "source": "yolo"
+      },
+      "H20_8": {
+        "bbox": [
+          1777,
+          1039,
+          1798,
+          1073
+        ],
+        "g_icon_name": "Speaker Icon",
+        "g_brief": "Audio Settings",
+        "m_id": "M096",
+        "y_id": "Y099",
+        "o_id": null,
+        "type": "icon",
+        "source": "yolo"
+      },
+      "H20_9": {
+        "bbox": [
+          1799,
+          1036,
+          1826,
+          1074
+        ],
+        "g_icon_name": "Save Icon",
+        "g_brief": "Save a Copy",
+        "m_id": "M088",
+        "y_id": "Y091",
+        "o_id": null,
+        "type": "icon",
+        "source": "yolo"
+      },
+      "H20_10": {
+        "bbox": [
+          1834,
+          1051,
+          1908,
+          1075
+        ],
+        "g_icon_name": "12-07-2025",
+        "g_brief": "Current date or last updated date",
+        "m_id": "M103",
+        "y_id": null,
+        "o_id": "O002",
+        "type": "text",
+        "source": "ocr_det"
+      }
+    },
+    "H21": {
+      "H21_1": {
+        "bbox": [
+          1556,
+          1010,
+          1613,
+          1034
+        ],
+        "g_icon_name": "Focus",
+        "g_brief": "Likely focuses the application window",
+        "m_id": "M058",
+        "y_id": null,
+        "o_id": "O030",
+        "type": "text",
+        "source": "ocr_det"
+      },
+      "H21_2": {
+        "bbox": [
+          1622,
+          1005,
+          1660,
+          1031
+        ],
+        "g_icon_name": "Document Icon",
+        "g_brief": "Opens a new document",
+        "m_id": "M084",
+        "y_id": "Y087",
+        "o_id": null,
+        "type": "icon",
+        "source": "yolo"
+      },
+      "H21_3": {
+        "bbox": [
+          1664,
+          1006,
+          1698,
+          1031
+        ],
+        "g_icon_name": "Document Icon",
+        "g_brief": "Opens a recent document",
+        "m_id": "M078",
+        "y_id": "Y081",
+        "o_id": null,
+        "type": "icon",
+        "source": "yolo"
+      },
+      "H21_4": {
+        "bbox": [
+          1705,
+          1007,
+          1733,
+          1031
+        ],
+        "g_icon_name": "Document Icon with User",
+        "g_brief": "Opens shared or collaborative documents",
+        "m_id": "M076",
+        "y_id": "Y079",
+        "o_id": null,
+        "type": "icon",
+        "source": "yolo"
+      },
+      "H21_5": {
+        "bbox": [
+          1741,
+          1009,
+          1756,
+          1031
+        ],
+        "g_icon_name": "Minus Icon",
+        "g_brief": "Minimizes the window",
+        "m_id": "M097",
+        "y_id": "Y100",
+        "o_id": null,
+        "type": "icon",
+        "source": "yolo"
+      }
+    },
+    "H22": {
+      "H22_1": {
+        "bbox": [
+          1646,
+          50,
+          1739,
+          77
+        ],
+        "g_icon_name": "Comments",
+        "g_brief": "Opens the comments pane",
+        "m_id": "M011",
+        "y_id": null,
+        "o_id": "O097",
+        "type": "text",
+        "source": "ocr_det"
+      },
+      "H22_2": {
+        "bbox": [
+          1747,
+          50,
+          1830,
+          78
+        ],
+        "g_icon_name": "Editing",
+        "g_brief": "Opens editing options",
+        "m_id": "M013",
+        "y_id": null,
+        "o_id": "O096",
+        "type": "text",
+        "source": "ocr_det"
+      },
+      "H22_3": {
+        "bbox": [
+          1837,
+          51,
+          1908,
+          77
+        ],
+        "g_icon_name": "Share",
+        "g_brief": "Opens sharing options",
+        "m_id": "M012",
+        "y_id": null,
+        "o_id": "O092",
+        "type": "text",
+        "source": "ocr_det"
+      }
+    },
+    "H23": {
+      "H23_1": {
+        "bbox": [
+          1651,
+          157,
+          1703,
+          181
+        ],
+        "g_icon_name": "Add-ins",
+        "g_brief": "Opens the add-ins dialog",
+        "m_id": "M112",
+        "y_id": null,
+        "o_id": "O036",
+        "type": "text",
+        "source": "ocr_det"
+      },
+      "H23_2": {
+        "bbox": [
+          1708,
+          157,
+          1779,
+          181
+        ],
+        "g_icon_name": "be amazing",
+        "g_brief": "Name or description of a specific add-in",
+        "m_id": "M111",
+        "y_id": null,
+        "o_id": "O035",
+        "type": "text",
+        "source": "ocr_det"
+      },
+      "H23_3": {
+        "bbox": [
+          1781,
+          157,
+          1877,
+          181
+        ],
+        "g_icon_name": "ChatGPT for MS...",
+        "g_brief": "Opens the ChatGPT add-in",
+        "m_id": "M110",
+        "y_id": null,
+        "o_id": "O034",
+        "type": "text",
+        "source": "ocr_det"
+      }
+    },
+    "H24": {
+      "H24_1": {
+        "bbox": [
+          1737,
+          9,
+          1767,
+          40
+        ],
+        "g_icon_name": "SY",
+        "g_brief": "Opens settings or synchronizes data",
+        "m_id": "M079",
+        "y_id": "Y082",
+        "o_id": null,
+        "type": "icon",
+        "source": "yolo"
+      },
+      "H24_2": {
+        "bbox": [
+          1780,
+          8,
+          1821,
+          39
+        ],
+        "g_icon_name": "Minus Icon",
+        "g_brief": "Likely reduces size or removes selected item",
+        "m_id": "M077",
+        "y_id": "Y080",
+        "o_id": null,
+        "type": "icon",
+        "source": "yolo"
+      },
+      "H24_3": {
+        "bbox": [
+          1829,
+          7,
+          1867,
+          39
+        ],
+        "g_icon_name": "Square Icon",
+        "g_brief": "Expands the window",
+        "m_id": "M094",
+        "y_id": "Y097",
+        "o_id": null,
+        "type": "icon",
+        "source": "yolo"
+      },
+      "H24_4": {
+        "bbox": [
+          1877,
+          6,
+          1913,
+          41
+        ],
+        "g_icon_name": "X",
+        "g_brief": "Closes the window or dialog",
+        "m_id": "M081",
+        "y_id": "Y084",
+        "o_id": null,
+        "type": "icon",
+        "source": "yolo"
+      }
+    },
+    "H25": {
+      "H25_1": {
+        "bbox": [
+          1753,
+          1044,
+          1830,
+          1069
+        ],
+        "g_icon_name": "Wifi Icon",
+        "g_brief": "Displays connection and audio output settings",
+        "m_id": "M104",
+        "y_id": null,
+        "o_id": "O007",
+        "type": "text",
+        "source": "ocr_det"
+      }
+    },
+    "H26": {
+      "H26_1": {
+        "bbox": [
+          1799,
+          133,
+          1860,
+          158
+        ],
+        "g_icon_name": "MS Word",
+        "g_brief": "Opens MS Word application",
+        "m_id": "M121",
+        "y_id": null,
+        "o_id": "O049",
+        "type": "text",
+        "source": "ocr_det"
+      }
+    },
+    "H27": {
+      "H27_1": {
+        "bbox": [
+          1804,
+          1009,
+          1815,
+          1032
+        ],
+        "g_icon_name": "Plus Icon",
+        "g_brief": "Maximizes window",
+        "m_id": "M101",
+        "y_id": "Y104",
+        "o_id": null,
+        "type": "icon",
+        "source": "yolo"
+      }
+    },
+    "V0": {
+      "V0_1": {
+        "bbox": [
+          26,
+          86,
+          62,
+          121
+        ],
+        "g_icon_name": "File Icon",
+        "g_brief": "Opens the file menu",
+        "m_id": "M127",
+        "y_id": null,
+        "o_id": "O081",
+        "type": "text",
+        "source": "ocr_det"
+      },
+      "V0_2": {
+        "bbox": [
+          22,
+          117,
+          62,
+          143
+        ],
+        "g_icon_name": "Paste",
+        "g_brief": "Pastes content from the clipboard",
+        "m_id": "M122",
+        "y_id": null,
+        "o_id": "O058",
+        "type": "text",
+        "source": "ocr_det"
+      }
+    },
+    "V1": {
+      "V1_1": {
+        "bbox": [
+          189,
+          87,
+          316,
+          115
+        ],
+        "g_icon_name": "Calibri (Body)",
+        "g_brief": "Selects the font type",
+        "m_id": "M008",
+        "y_id": "Y008",
+        "o_id": null,
+        "type": "icon",
+        "source": "yolo"
+      }
+    },
+    "V2": {
+      "V2_1": {
+        "bbox": [
+          65,
+          83,
+          113,
+          109
+        ],
+        "g_icon_name": "Cut",
+        "g_brief": "Cuts the selected content",
+        "m_id": "M089",
+        "y_id": null,
+        "o_id": "O083",
+        "type": "text",
+        "source": "ocr_det"
+      },
+      "V2_2": {
+        "bbox": [
+          62,
+          108,
+          120,
+          135
+        ],
+        "g_icon_name": "Copy",
+        "g_brief": "Copies the selected content",
+        "m_id": "M124",
+        "y_id": null,
+        "o_id": "O069",
+        "type": "text",
+        "source": "ocr_det"
+      }
+    },
+    "V3": {
+      "V3_1": {
+        "bbox": [
+          313,
+          157,
+          350,
+          181
+        ],
+        "g_icon_name": "Font",
+        "g_brief": "Opens the font formatting options",
+        "m_id": "M117",
+        "y_id": null,
+        "o_id": "O042",
+        "type": "text",
+        "source": "ocr_det"
+      }
+    },
+    "V4": {
+      "V4_1": {
+        "bbox": [
+          1556,
+          78,
+          1638,
+          107
+        ],
+        "g_icon_name": "Find",
+        "g_brief": "Opens the find dialog",
+        "m_id": "M063",
+        "y_id": "Y064",
+        "o_id": null,
+        "type": "icon",
+        "source": "yolo"
+      },
+      "V4_2": {
+        "bbox": [
+          1556,
+          134,
+          1628,
+          161
+        ],
+        "g_icon_name": "Select",
+        "g_brief": "Opens the select menu",
+        "m_id": "M017",
+        "y_id": null,
+        "o_id": "O047",
+        "type": "text",
+        "source": "ocr_det"
+      },
+      "V4_3": {
+        "bbox": [
+          1573,
+          157,
+          1622,
+          182
+        ],
+        "g_icon_name": "Editing",
+        "g_brief": "Opens the editing menu",
+        "m_id": "M113",
+        "y_id": null,
+        "o_id": "O037",
+        "type": "text",
+        "source": "ocr_det"
+      }
+    },
+    "V5": {
+      "V5_1": {
+        "bbox": [
+          502,
+          90,
+          735,
+          115
+        ],
+        "g_icon_name": "List Formatting Icons",
+        "g_brief": "Opens list formatting options",
+        "m_id": "M021",
+        "y_id": null,
+        "o_id": "O075",
+        "type": "text",
+        "source": "ocr_det"
+      },
+      "V5_2": {
+        "bbox": [
+          502,
+          122,
+          734,
+          149
+        ],
+        "g_icon_name": "Paragraph Alignment Icons",
+        "g_brief": "Opens paragraph alignment options",
+        "m_id": "M014",
+        "y_id": null,
+        "o_id": "O056",
+        "type": "text",
+        "source": "ocr_det"
+      },
+      "V5_3": {
+        "bbox": [
+          581,
+          157,
+          645,
+          182
+        ],
+        "g_icon_name": "Paragraph",
+        "g_brief": "Opens paragraph formatting options",
+        "m_id": "M116",
+        "y_id": null,
+        "o_id": "O041",
+        "type": "text",
+        "source": "ocr_det"
+      }
+    },
+    "V6": {
+      "V6_1": {
+        "bbox": [
+          1814,
+          90,
+          1845,
+          116
+        ],
+        "g_icon_name": "GPT Icon",
+        "g_brief": "Opens options or the configuration panel for GPT features",
+        "m_id": "M125",
+        "y_id": null,
+        "o_id": "O073",
+        "type": "text",
+        "source": "ocr_det"
+      }
+    },
+    "V7": {
+      "V7_1": {
+        "bbox": [
+          1902,
+          991,
+          1920,
+          1012
+        ],
+        "g_icon_name": "Dropdown Icon",
+        "g_brief": "Opens zoom level selection",
+        "m_id": "M091",
+        "y_id": "Y094",
+        "o_id": null,
+        "type": "icon",
+        "source": "yolo"
+      },
+      "V7_2": {
+        "bbox": [
+          1873,
+          1010,
+          1917,
+          1035
+        ],
+        "g_icon_name": "100%",
+        "g_brief": "Displays the current zoom level",
+        "m_id": "M107",
+        "y_id": null,
+        "o_id": "O027",
+        "type": "text",
+        "source": "ocr_det"
+      },
+      "V7_3": {
+        "bbox": [
+          1850,
+          1036,
+          1907,
+          1060
+        ],
+        "g_icon_name": "13:12:12",
+        "g_brief": "Displays the current time",
+        "m_id": "M105",
+        "y_id": null,
+        "o_id": "O025",
+        "type": "text",
+        "source": "ocr_det"
+      }
+    }
+  },
+  "gemini_analysis_metadata": {
+    "total_images_analyzed": 2,
+    "analysis_mode": "direct",
+    "timestamp": "2025-07-12T13:12:29.134878"
+  }
+}
