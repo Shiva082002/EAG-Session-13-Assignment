@@ -84,7 +84,22 @@ Create a `.env` file in the project root:
 GEMINI_API_KEY=your_gemini_api_key_here
 ```
 
-4. **Run the agent**
+4. **Start the MCP Server (SSE)**
+```bash
+python mcp_server_sse.py
+# or with uv
+uv run mcp_server_sse.py
+```
+
+5. ** Start the MCP Control Server Open a new terminal window and run:**
+```bash
+
+python windowcontrol\windowManager\mcp_server_mcp_control.py
+# or with uv
+uv run windowcontrol\windowManager\mcp_server_mcp_control.py
+```
+
+6. **Run the agent**
 ```bash
 python windowcontrol.py
 # or with uv
